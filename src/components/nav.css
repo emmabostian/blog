@@ -1,13 +1,30 @@
+nav {
+  border: 1px solid #979797;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav ul {
   display: flex;
   list-style: none;
+  height: 100%;
+  align-items: center;
+  margin: 0;
 }
 
 nav ul li {
   list-style: none;
-  padding: 0 24px;
+  padding: 8px 24px;
+  margin: 0;
+  border-left: 1px solid #979797;
 }
 
 nav ul li a {
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 14px;
+  color: #000;
 }

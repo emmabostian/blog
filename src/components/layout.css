@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.header__tagline {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.header__title {
+  font-size: 72px;
+}
