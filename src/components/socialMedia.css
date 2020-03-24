@@ -1,0 +1,26 @@
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+  height: 200px;
+}
+
+.socialMedia__link {
+  margin-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedia a:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1330px) {
+  .socialMedia {
+    border-right: none;
+    border-bottom: 1px solid #d8d8d8;
+  }
+}

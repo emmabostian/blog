@@ -1,0 +1,87 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.contact__form {
+  border: 2px solid #000;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.contact__label {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  z-index: 10;
+  font-size: 14px;
+}
+
+.contact__formGroup {
+  position: relative;
+}
+
+.contact__textField {
+  height: 70px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  font-size: 18px;
+  padding-top: 16px;
+  padding-left: 8px;
+}
+
+.contact__textArea {
+  width: 400px;
+  border: none;
+  font-size: 18px;
+  padding-top: 16px;
+  padding-left: 8px;
+  position: relative;
+  width: 100%;
+  resize: none;
+  height: 430px;
+  padding: 40px 8px;
+}
+
+.contact__submit {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-left: 2px solid #000;
+  border-top: 2px solid #000;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 3px;
+}
+
+.contact__submitIcon {
+  margin: 0;
+  margin-bottom: 4px;
+  width: 16px;
+}
+
+@media (max-width: 850px) {
+  .contact {
+    width: 85%;
+  }
+
+  .contact__form {
+    width: 100%;
+  }
+}

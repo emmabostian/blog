@@ -4,26 +4,11 @@ import instagram from "../../content/assets/instagram.svg"
 import linkedin from "../../content/assets/linkedin.svg"
 import github from "../../content/assets/github.svg"
 
+import "./socialMedia.css"
+
 export default () => (
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      borderTop: "1px solid #D8D8D8",
-      borderRight: "1px solid #D8D8D8",
-      height: "200px",
-    }}
-  >
-    <a
-      style={{
-        marginRight: "24px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-      href="https://twitter.com/EmmaBostian"
-    >
+  <div className="socialMedia">
+    <a className="socialMedia__link" href="https://twitter.com/EmmaBostian">
       <img
         style={{
           margin: "0",
@@ -36,12 +21,7 @@ export default () => (
       />
     </a>
     <a
-      style={{
-        marginRight: "24px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      className="socialMedia__link"
       href="https://www.instagram.com/emmabostian/"
     >
       <img
@@ -51,12 +31,7 @@ export default () => (
       />
     </a>
     <a
-      style={{
-        marginRight: "24px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      className="socialMedia__link"
       href="https://www.linkedin.com/in/emmawedekind/"
     >
       <img
@@ -65,15 +40,7 @@ export default () => (
         alt="LinkedIn"
       />
     </a>
-    <a
-      style={{
-        marginRight: "24px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-      href="https://github.com/emmabostian"
-    >
+    <a className="socialMedia__link" href="https://github.com/emmabostian">
       <img
         style={{ margin: "0", width: "24px", height: "24px" }}
         src={github}

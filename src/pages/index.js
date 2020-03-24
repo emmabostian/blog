@@ -4,26 +4,20 @@ import FeaturedPost from "../components/featuredPost"
 import AboutMe from "../components/aboutMe"
 import Backlog from "../components/backlog"
 import SocialMedia from "../components/socialMedia"
+import Contact from "../components/contact"
+
+import "./index.css"
 
 export default () => (
   <Layout>
     <FeaturedPost />
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "flex-start",
-        width: "75vw",
-        marginTop: "100px",
-        borderTop: "1px solid #D8D8D8",
-        borderBottom: "1px solid #D8D8D8",
-      }}
-    >
-      <div>
+    <div className="index__wrapper">
+      <div className="index__leftColumn">
         <AboutMe />
         <SocialMedia />
       </div>
       <Backlog />
     </div>
+    <Contact />
   </Layout>
 )

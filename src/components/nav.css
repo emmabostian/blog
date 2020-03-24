@@ -1,4 +1,4 @@
-nav {
+.nav {
   border: 1px solid #979797;
   width: 100vw;
   display: flex;
@@ -7,7 +7,7 @@ nav {
   margin-top: 40px;
 }
 
-nav ul {
+.nav__list {
   display: flex;
   list-style: none;
   height: 100%;
@@ -15,21 +15,89 @@ nav ul {
   margin: 0;
 }
 
-nav ul li {
+.nav__listItem {
   list-style: none;
   padding: 8px 24px;
   margin: 0;
   border-left: 1px solid #979797;
 }
 
-nav ul li:last-child {
+.nav__list li:last-child {
   border-right: 1px solid #979797;
 }
 
-nav ul li a {
+.nav__listItem a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 6px;
   font-size: 14px;
   color: #000;
+}
+
+.mobileNav__button {
+  position: fixed;
+  top: 24px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  z-index: 90;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobileNav__button > img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 2000;
+}
+
+.mobileView {
+  display: none;
+}
+
+.mobileNav {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  color: #000;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 80;
+  transition: all 0.8s cubic-bezier(0.11, 1.18, 1, 0.97);
+}
+
+.mobileNav--show {
+  top: 0;
+}
+
+.mobileNav .nav__list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.mobileNav .nav__listItem {
+  border: none;
+}
+
+.mobileNav .nav__listItem a {
+  font-size: 2rem;
+}
+
+.mobileNav .nav__list li:last-child {
+  border: none;
+}
+
+@media (max-width: 860px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileView {
+    display: block;
+  }
 }

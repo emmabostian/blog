@@ -20,4 +20,12 @@ main {
   flex-direction: column;
   align-items: center;
   margin-bottom: 48px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 860px) {
+  .header__tagline {
+    max-width: 60%;
+    text-align: center;
+  }
 }

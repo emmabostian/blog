@@ -2,19 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import picture from "../../content/assets/emma.jpg"
 import "../pages/page.css"
+import "./aboutMe.css"
 
 const AboutMe = () => (
-  <aside
-    style={{
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      borderRight: "1px solid #D8D8D8",
-      paddingRight: "120px",
-      height: "1000px",
-    }}
-  >
+  <aside className="aboutMe">
     <h2 className="page__subHeader">About Me</h2>
     <img className="page__image--small" src={picture} alt="Emma Bostian" />
     <p style={{ textAlign: "left", maxWidth: "360px" }}>
