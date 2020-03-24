@@ -1,7 +1,9 @@
 ---
 title: New Beginnings
 date: "2015-05-28T22:40:32.169Z"
+slug: "/new-beginnings"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+headerImage: "https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
