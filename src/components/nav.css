@@ -4,6 +4,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 nav ul {
@@ -19,6 +20,10 @@ nav ul li {
   padding: 8px 24px;
   margin: 0;
   border-left: 1px solid #979797;
+}
+
+nav ul li:last-child {
+  border-right: 1px solid #979797;
 }
 
 nav ul li a {
