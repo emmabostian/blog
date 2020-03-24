@@ -1,0 +1,31 @@
+.podcasts__title {
+  font-family: "Questrial";
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.podcasts__table {
+  border: 2px solid #000;
+  width: 80%;
+}
+
+.podcasts__table th {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+}
+
+.podcasts__table th,
+.podcasts__table td {
+  padding: 16px 24px;
+}
+
+.podcasts__table th {
+  border-bottom: 2px solid #000;
+}
+
+.podcasts__table td {
+  border: none;
+}
