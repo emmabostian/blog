@@ -1,0 +1,37 @@
+.featuredPost {
+  border: 2px solid #000;
+  max-width: 700px;
+  position: relative;
+}
+
+.featuredPost__featured {
+  position: absolute;
+  top: -16px;
+  left: -2px;
+  background-color: white;
+  padding: 16px 24px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #000;
+  font-size: 12px;
+}
+
+.featuredPost img {
+  width: 100%;
+  height: 340px;
+  border-bottom: 2px solid #000;
+}
+
+.featuredPost a {
+  color: #000;
+  text-decoration: none;
+}
+
+.featuredPost__title {
+  font-size: 34px;
+}
+
+.featuredPost__content {
+  padding: 12px 24px;
+}
