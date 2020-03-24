@@ -1,17 +1,21 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+const typography = new Typography({
+  baseFontSize: "16px",
+  baseLineHeight: 1.666,
+  googleFonts: [
+    {
+      name: "Questrial",
+      styles: ["Regular"],
     },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+    {
+      name: "Playfair Display",
+      styles: ["Black"],
+    },
+  ],
+  headerFontFamily: ["Playfair Display", "serif"],
+  bodyFontFamily: ["Questrial", "sans-serif"],
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
