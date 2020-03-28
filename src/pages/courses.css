@@ -1,0 +1,49 @@
+.course {
+  display: flex;
+  height: 228px;
+  max-width: 650px;
+  border: 2px solid #000;
+  position: relative;
+}
+
+.course__title {
+  margin: 16px 0;
+  font-family: "Questrial";
+  font-size: 1.6rem;
+}
+
+.course__link {
+  position: absolute;
+  width: 110px;
+  height: 70px;
+  border: 2px solid #000;
+  right: -1px;
+  bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.7rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 4px;
+}
+
+.course__icon {
+  width: 125px;
+  height: 125px;
+}
+
+.course__buttonIcon {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.course__content {
+  width: calc(100% - 225px);
+  margin: 0 24px;
+}
