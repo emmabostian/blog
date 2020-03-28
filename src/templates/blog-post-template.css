@@ -1,5 +1,7 @@
 .blogTemplate__title {
   font-size: 3rem;
+  max-width: 70%;
+  text-align: center;
 }
 
 .blogTemplate__date {
