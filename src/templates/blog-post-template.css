@@ -1,0 +1,25 @@
+.blogTemplate__title {
+  font-size: 3rem;
+}
+
+.blogTemplate__date {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.blogTemplate__headerImage {
+  width: 80vw;
+}
+
+.blogTemplate__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+
+.blogTemplate__content p {
+  max-width: 70%;
+  text-align: left;
+}
