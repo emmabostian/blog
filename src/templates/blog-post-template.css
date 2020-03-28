@@ -36,3 +36,12 @@
   font-size: 0.8rem;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .blogTemplate__link {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 24px;
+  }
+}

@@ -12,7 +12,9 @@ const BlogPostTemplate = ({ data }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-
+      <Link className="blogTemplate__link" to="/blogs">
+        All blogs
+      </Link>
       <h1 className="blogTemplate__title">{post.frontmatter.title}</h1>
       <p className="blogTemplate__date">{post.frontmatter.date}</p>
       <p
@@ -21,9 +23,6 @@ const BlogPostTemplate = ({ data }) => {
           __html: post.html,
         }}
       />
-      <Link className="blogTemplate__link" to="/blogs">
-        All blogs
-      </Link>
     </Layout>
   )
 }
