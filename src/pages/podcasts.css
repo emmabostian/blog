@@ -7,7 +7,8 @@
 
 .podcasts__table {
   border: 2px solid #000;
-  width: 80%;
+  table-layout: fixed;
+  max-width: 800px;
 }
 
 .podcasts__table th {
@@ -28,4 +29,25 @@
 
 .podcasts__table td {
   border: none;
+}
+
+.podcasts__table-body {
+  display: block;
+  max-height: 500px;
+  overflow-y: scroll;
+  width: 300%;
+}
+
+.podcasts__table-body td {
+  width: 33%;
+}
+
+.podcasts__table a {
+  color: #000;
+  text-decoration: none;
+}
+
+.podcasts__table a:hover,
+.podcasts__table a:focus {
+  text-decoration: underline;
 }
