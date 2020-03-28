@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import "./podcasts.css"
+import "./tables.css"
 
 const podcasts = {
   ladybug: [
@@ -317,8 +317,8 @@ const podcasts = {
 const PodcastsPage = () => (
   <Layout>
     <h1>Podcasts</h1>
-    <h4 className="podcasts__title">Guest Podcasts</h4>
-    <table className="podcasts__table">
+    <h4 className="tables__title">Guest Podcasts</h4>
+    <table className="tables__table">
       <thead>
         <tr>
           <th>Name</th>
@@ -340,8 +340,8 @@ const PodcastsPage = () => (
           ))}
       </tbody>
     </table>
-    <h4 className="podcasts__title">JS Party</h4>
-    <table className="podcasts__table">
+    <h4 className="tables__title">JS Party</h4>
+    <table className="tables__table">
       <thead>
         <tr>
           <th>Name</th>
@@ -363,8 +363,8 @@ const PodcastsPage = () => (
           ))}
       </tbody>
     </table>
-    <h4 className="podcasts__title">Ladybug Podcast</h4>
-    <table className="podcasts__table">
+    <h4 className="tables__title">Ladybug Podcast</h4>
+    <table className="tables__table">
       <thead>
         <tr>
           <th>Name</th>
@@ -372,7 +372,7 @@ const PodcastsPage = () => (
           <th>Link</th>
         </tr>
       </thead>
-      <tbody className="podcasts__table-body">
+      <tbody className="tables__table-body">
         {podcasts.ladybug
           .sort((a, b) => b.date - a.date)
           .map(episode => (

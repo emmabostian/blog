@@ -1,53 +1,53 @@
-.podcasts__title {
+.tables__title {
   font-family: "Questrial";
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 6px;
 }
 
-.podcasts__table {
+.tables__table {
   border: 2px solid #000;
   table-layout: fixed;
   max-width: 800px;
 }
 
-.podcasts__table th {
+.tables__table th {
   text-transform: uppercase;
   font-weight: 100;
   font-size: 0.9rem;
   letter-spacing: 3px;
 }
 
-.podcasts__table th,
-.podcasts__table td {
+.tables__table th,
+.tables__table td {
   padding: 16px 24px;
 }
 
-.podcasts__table th {
+.tables__table th {
   border-bottom: 2px solid #000;
 }
 
-.podcasts__table td {
+.tables__table td {
   border: none;
 }
 
-.podcasts__table-body {
+.tables__table-body {
   display: block;
   max-height: 500px;
   overflow-y: scroll;
   width: 300%;
 }
 
-.podcasts__table-body td {
+.tables__table-body td {
   width: 33%;
 }
 
-.podcasts__table a {
+.tables__table a {
   color: #000;
   text-decoration: none;
 }
 
-.podcasts__table a:hover,
-.podcasts__table a:focus {
+.tables__table a:hover,
+.tables__table a:focus {
   text-decoration: underline;
 }
