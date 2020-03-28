@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import arrow from "../../content/assets/arrow.png"
 import "./blogPost.css"
 
-const BlogPost = ({ title, description, headerImage, slug }) => {
+const BlogPost = ({ title, description, headerImage, slug, wide = false }) => {
   return (
-    <div className="blogPost">
+    <div className="blogPost blogPost--wide">
       <img className="blogPost__headerImage" src={headerImage} alt={title} />
       <div className="blogPost__content">
         <div className="blogPost__textContent">

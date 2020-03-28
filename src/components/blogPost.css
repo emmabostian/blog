@@ -7,6 +7,10 @@
   margin-bottom: 32px;
 }
 
+.blogPost--wide {
+  max-width: 600px;
+}
+
 .blogPost__headerImage {
   width: 100%;
   height: 340px;
@@ -27,6 +31,7 @@
   border-left: 2px solid #000;
   cursor: pointer;
   padding: 0 12px;
+  min-width: 128px;
 }
 
 .blogPost__title {
@@ -38,6 +43,9 @@
 .blogPost__description {
   margin: 0;
   margin-bottom: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .blogPost__content {
@@ -47,6 +55,7 @@
 
 .blogPost__textContent {
   padding-left: 24px;
+  max-width: 70%;
 }
 
 .blogPost__buttonIcon {
@@ -55,4 +64,10 @@
   text-decoration: none;
   margin: 0;
   margin-bottom: 8px;
+}
+
+@media (max-width: 670px) {
+  .blogPost--wide {
+    width: 85vw;
+  }
 }
