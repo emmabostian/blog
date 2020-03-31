@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link, graphql, StaticQuery } from "gatsby"
+import { graphql, StaticQuery } from "gatsby"
 import BlogPost from "../components/blogPost.js"
 import "./blogs.css"
 
@@ -29,7 +29,7 @@ export default () => (
 
 const query = graphql`
   query AllBlogs {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           frontmatter {
