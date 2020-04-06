@@ -4,6 +4,7 @@ date: "2019-07-30"
 slug: "/three-tools-for-boosting-productivity"
 description: How do you get so much done?" This is a question I receive several times a week. And up until today my answer was always the same - I'm struggling to keep my head above water.
 headerImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--jRq2mJ7F--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--hO6cYXp5--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/1dfzj93c2nqq7dnhrawu.jpeg"
+draft: false
 ---
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--jRq2mJ7F--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--hO6cYXp5--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/1dfzj93c2nqq7dnhrawu.jpeg" />

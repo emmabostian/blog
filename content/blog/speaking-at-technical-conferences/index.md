@@ -4,6 +4,7 @@ date: "2019-10-23"
 slug: "/speaking-at-technical-conferences"
 description: How do you get so much done?" This is a question I receive several times a week. And up until today my answer was always the same - I'm struggling to keep my head above water.
 headerImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--zSd0_DLh--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--AkxVJ83O--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/q1cupzf53oebyvncrqsh.jpeg"
+draft: false
 ---
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--zSd0_DLh--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--AkxVJ83O--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/q1cupzf53oebyvncrqsh.jpeg" />
@@ -26,41 +27,41 @@ I've learned a few things during this conference journey, and I hope it encourag
 
 ---
 
-![Why would I want to speak](https://cdn-images-1.medium.com/max/1600/1*BWg-Zl9pTqGa3DoK5LxJ_A.png)
+# Why would I want to speak?
 
 Speaking at conferences isn't for everyone, and that's okay! Yet there are many benefits to speaking at conferences, above and beyond getting to meet wonderful humans.
 
-![Learning new skills](https://cdn-images-1.medium.com/max/1600/1*nsvTVXzR3fAlDQVlkkuZbQ.png)
+## To learn a new skill
 
 As a speaker you're often able and encouraged to sit in on the other conference talks. Thus, you're able to learn a lot about many different topics.
 
-![Traveling the world](https://cdn-images-1.medium.com/max/1600/1*6oLvMOua5U3djesps1iAmw.png)
+## To travel the world
 
 Conferences will often provide travel for you when you sign on to speak, and this can be a great way to see the world! If you can afford to extend the trip a couple of extra days, you may get to see some pretty incredible places.
 
-![Meeting your heroes](https://cdn-images-1.medium.com/max/1600/1*L8W9aQBboosn0x0THTtKvw.png)
+## To meet your heroes
 
 One of my favorite parts of speaking at conferences is having the ability to meet other people in the industry that I respect and admire. Plus, it's always fun to meet Twitter friends in real life.
 
-![Building your network](https://cdn-images-1.medium.com/max/1600/1*o4btOsNroqWs-9vhJ5_1vQ.png)
+## To build your network
 
 Speaking allows you the opportunity to reach hundreds, or thousands of people, and this is a great way to build your social media presence and network.
 
 ---
 
-![Why wouldn't I want to speak](https://cdn-images-1.medium.com/max/1600/1*wAVS9109m1p0uC1zRgYTQA.png)
+# Why wouldn't I want to speak?
 
-![Burnout](https://cdn-images-1.medium.com/max/1600/1*GB0_8BLdH9bD-b23Fu46AQ.png)
+## To avoid burnout
 
 One harsh reality I've faced after speaking at several conferences is that burnout is a true concern. It's important not to overbook your schedule, especially if developer relations is a hobby and not your full-time profession. Moving forward I'm making an effort to limit my commitments to one conference per month.
 
-![Fear of public speaking](https://cdn-images-1.medium.com/max/1600/1*DY89Xl9LAq_f8Hp7XBHBKg.png)
+## A fear of public speaking
 
 Public speaking isn't for everyone, and if you're not keen to speak, there's no shame in that!
 
 ---
 
-![Call for papers](https://cdn-images-1.medium.com/max/1600/1*ipuOu2DXVYJcoi8eYnffaQ.png)
+# Call for papers (CFP)
 
 Call for papers, or CFP for short, is the period of time when conferences are looking for talk submissions. You'll often see the CFP denoted on a conference's website.
 
@@ -79,7 +80,7 @@ Thus, it's important to submit a creative CFP.
 
 If you're a member of an underrepresented or marginalized group, I recommend checking out [Global Diversity CFP Day](https://www.globaldiversitycfpday.com/).
 
-![What makes a good CFP](https://cdn-images-1.medium.com/max/1600/1*lffcUgUeFXL-78w3wQVAGw.png)
+# What makes a good CFP?
 
 Conferences receive a multitude of CFPs, so it's important to stand out from the crowd by being creative with your abstract.
 
@@ -88,7 +89,7 @@ Conferences receive a multitude of CFPs, so it's important to stand out from the
 - Have a thorough outline that explains exactly what you'll cover and what the audience will learn
 - If you've given the talk before, link to the recording (if available)
 
-![Being asked to speak](https://cdn-images-1.medium.com/max/1600/1*8uTfM6Ck_5OTqTPU2WAj9Q.png)
+# Being asked to speak
 
 Although I've applied for many conferences, I've only been accepted to one through the CFP process (ReactJS Girls London). The other conferences I was fortunate enough to be asked to speak.
 
@@ -102,17 +103,17 @@ Don't be afraid to say no, but also don't be afraid to say yes!
 
 ---
 
-![Logistics of speaking](https://cdn-images-1.medium.com/max/1600/1*D3wzw_kYxJRDsD0rMi4FxQ.png)
+# Logistics of speaking
 
 Once your CFP has been accepted, or you've been asked to speak, it's time to write your talk (if you haven't done so already). Here are a few logistics of creating a conference talk!
 
-![Pick a topic](https://cdn-images-1.medium.com/max/1600/1*qU0zBeW_bHLtyR7gMg0bzA.png)
+## Pick a topic
 
 If you haven't picked a topic yet, now's the time. You can go one of two directions: you can pick a topic you know inside-and-out, or you can pick a new topic you've been wanting to learn.
 
 The second option is a bit more risky, as it can be nerve wracking to learn a skill and then teach it publicly to potentially hundreds or thousands of attendees, but it can also be a great way to spread knowledge.
 
-![Write an outline](https://cdn-images-1.medium.com/max/1600/1*r5W7wB3kzWg5CizmgOr2Dg.png)
+## Write an outline
 
 - Once you have your topic, start with an outline. Here are some questions you may want to ask yourself.
 - What are the key things you want the conference attendee to learn?
@@ -121,7 +122,7 @@ The second option is a bit more risky, as it can be nerve wracking to learn a sk
 - Is there foundational knowledge you should explain before diving into the topic?
 - Can all of this be covered in the allotted time frame?
 
-![Create a catchy title](https://cdn-images-1.medium.com/max/1600/1*M3LoEAoA6yaqf86pOepJYg.png)
+## Pick a catchy title
 
 To peak attendee's interest, you can start with a catchy title. Personally I am terrible at creating catchy titles, but I always admire a catchy one when I see it. Here are a few examples of titles that stand out from the crowd:
 
@@ -129,13 +130,13 @@ To peak attendee's interest, you can start with a catchy title. Personally I am 
 - The Magical Living Room (Saron Yitbarek)
 - Everything You Need to Know About GraphQL in 3 Components (Eve Porcello)]
 
-![Make your slides](https://cdn-images-1.medium.com/max/1600/1*zi9uyDapr6u5os0uU-JxyA.png)
+## Make your slides
 
 Making your slides is most likely the most difficult part of the presenting process, and there are many approaches you can take to presenting your information.
 
 I personally choose to have many slides with a small amount of text, or a diagram/image, on each. I find that the fast-paced flow with the reduced cognitive overhead of minimal text keeps the audience engaged.
 
-![Rehearse](https://cdn-images-1.medium.com/max/1600/1*YX15WYFY81zWOhQpBUprUA.png)
+## Rehearse your talk
 
 It doesn't matter how much experience you may have publicly speaking, you should rehearse your talk. Rehearsing allows us to iron out pieces of our talk and perhaps realize "hey this part actually doesn't flow well with the rest of the information."
 
@@ -143,7 +144,7 @@ You can rehearse out loud, but it's best to rehearse to a friend or colleague wh
 
 ---
 
-![Speaker fees](https://cdn-images-1.medium.com/max/1600/1*2_mtC_KUl1zd490OAzwN3g.png)
+# Speaker fees
 
 Once you've been speaking for a while, you may want to consider a speaker fee. While this issue is controversial, there is nothing wrong with monetizing your work.
 
@@ -155,7 +156,7 @@ It's up to you to decide whether or not to charge a speaker fee. For someone who
 
 ---
 
-![Pulling out of a conference](https://cdn-images-1.medium.com/max/1600/1*1LKOedcbe3gPFOqXepq42A.png)
+# Pulling out of a conference
 
 Sadly, due to unforeseen personal changes, I had to cancel five conferences this year.
 

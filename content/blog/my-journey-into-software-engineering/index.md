@@ -4,6 +4,7 @@ date: "2019-02-21"
 slug: "/my-journey-into-software-engineering"
 description: “You should really consider software engineering — I think you’d be great at it.” This wasn’t the first time I had heard these words from my dad.
 headerImage: "https://cdn-images-1.medium.com/max/2000/1*nIjfoUR90CUKibydNhq_Bw.jpeg"
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/2000/1*nIjfoUR90CUKibydNhq_Bw.jpeg" />

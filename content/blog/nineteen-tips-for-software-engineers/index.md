@@ -4,6 +4,7 @@ date: "2018-12-13"
 slug: "/nineteen-tips-for-software-engineers"
 description: It's almost 2019 and there are some amazing things coming down the pipeline in the world of programming. But for many new developers the prospect of jumping into a career in coding can be intimidating.
 headerImage: "https://images.unsplash.com/photo-1514862474054-e3509f8af30f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1514862474054-e3509f8af30f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />

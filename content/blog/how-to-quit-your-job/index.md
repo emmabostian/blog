@@ -4,6 +4,7 @@ date: "2019-03-19"
 slug: "/how-to-quit-your-job"
 description: In February of 2018 I quit my job at IBM. There were several reasons which led me to this decision, but navigating the process of gracefully giving my notice left me in a state of turmoil.
 headerImage: "https://cdn-images-1.medium.com/max/1600/1*ZdObUWz8GtrK9xD1Y1X_cw.jpeg"
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*ZdObUWz8GtrK9xD1Y1X_cw.jpeg" />
@@ -26,7 +27,7 @@ Here is my experience with quitting my job, and the tips I picked up along the w
 
 Before we delve in to the methods of giving notice, let’s examine some reasons why you might want to leave your current role.
 
-### Switching Industries
+## Switching Industries
 
 Perhaps your current role isn’t where you see yourself in five, ten, or fifteen years. Perhaps it’s not even in the same industry! Switching industries can provide you with a large variation of experience within your career.
 
@@ -34,17 +35,17 @@ At IBM I was working on Quantum Computing. It was great! I got to learn physics 
 
 Gaining knowledge in different industries is a valid reason for leaving your current job, especially if your passion lies elsewhere.\
 
-### Work/Life Balance
+## Work/Life Balance
 
 Perhaps your current role doesn’t provide you with the work/life balance you need to maintain a healthy lifestyle. We often forget that mental health is a vastly important part of our overall well-being. If you don’t have time to spend with family and friends, or relax at the end of a long workday, you can quickly burn out.
 
-### Friction With Your Current Company
+## Friction With Your Current Company
 
 When we think of quitting, we often attribute it to a dispute with a company. And although this can be the case, it’s not always true.
 
 If you have irreconcilable differences with your company, their mission, or the culture, quitting might be the best option.
 
-### Moving
+## Moving
 
 This was the reason that I left my job at IBM; I wanted to move to Germany. Unfortunately, I wasn’t able to keep my job, so I was left with no choice but to quit.
 
@@ -52,13 +53,13 @@ I am a huge advocate for always putting yourself, and your family, above any job
 
 If you’re stuck between wanting to move and staying at your job, I always encourage you to put yourself first.
 
-### Career Growth Stagnation
+## Career Growth Stagnation
 
 Sometimes you may be in the unfortunate situation of little-to-no career growth. I’ve noticed this happen in larger enterprises; it can be really difficult to get promoted.
 
 If this is the case, you may want to explore new opportunities. Switching companies is often the quickest way to get a promotion if your career has hit a plateau.
 
-### Opportunity Of A Lifetime
+## Opportunity Of A Lifetime
 
 If you’ve been given the job offer of a lifetime, take it. You should never turn down a job because you’re afraid to hurt your manager’s feelings. A good manager will always have your best interests at heart.
 
@@ -66,7 +67,7 @@ If you’ve been given the job offer of a lifetime, take it. You should never tu
 
 Now on to the hard question of how to actually quit your job. There are a few buckets underneath this that I want to examine.
 
-### How Long Before Leaving Should I Give Notice?
+## How Long Before Leaving Should I Give Notice?
 
 I accepted my job offer in Germany in November of 2017, but my start date wasn’t until March 2018. I had no idea how much notice I should give.
 
@@ -80,7 +81,7 @@ Could she have let me go before the end of my four weeks? Yes, it’s possible. 
 
 When you choose to give notice of your departure is a decision only you can make. Whether you give the minimum, or a little extra, you can continue to maintain a healthy relationship with your ex-employer.
 
-### How Do I Start The Conversation?
+## How Do I Start The Conversation?
 
 It’s important to schedule a one-on-one conversation with your manager, away from any distractions or other people.
 
@@ -98,13 +99,13 @@ One other thing you can do to maintain a great relationship is to offer to onboa
 
 Before leaving IBM, I helped interview and vet candidates. I also typed up an on-boarding guide to get them up-to-speed. This is one more way you can leave a positive impression on your employer.
 
-### Do I Need To Have Another Job Lined Up?
+## Do I Need To Have Another Job Lined Up?
 
 This is a completely subjective question. I chose to have a job lined up because I needed a visa to live and work in Germany. Others have quit jobs with no offer on the table.
 
 It all comes down to you, your family, and your financial comfort. Can you afford to go one or two months without a salary? This is an important question to discuss with your family prior to quitting your job (if possible).
 
-### How Do I Tell My Team?
+## How Do I Tell My Team?
 
 I chose to tell my team personally, but if you’re not comfortable with it, you can ask your manager for help navigating this. Perhaps they can send an email to the team or make a formal announcement.
 

@@ -4,6 +4,7 @@ date: "2019-01-08"
 slug: "/how-to-write-a-kickass-technical-resume"
 description: Writing a resume is hard. Yet even today, most job applications require resumes to be considered for a position. The true goal behind a resume is to market yourself. You are your best advocate.
 headerImage: "https://cdn-images-1.medium.com/max/1000/1*kP1T8RSVBamsFmEMBWBcdA.jpeg"
+draft: true
 ---
 
 <img src="https://cdn-images-1.medium.com/max/1000/1*kP1T8RSVBamsFmEMBWBcdA.jpeg" />

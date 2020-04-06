@@ -4,6 +4,7 @@ date: "2019-07-26"
 slug: "/design-systems-part-2-design-language"
 description: In this post we'll delve into the foundation of a design system - design language.
 headerImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--QRgK5isx--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--FKQfgQTN--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/r3vfenw72paq5xsitald.png"
+draft: false
 ---
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--QRgK5isx--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--FKQfgQTN--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/r3vfenw72paq5xsitald.png" />
@@ -12,9 +13,7 @@ In part one we took a look at the foundations of Design Systems. If you haven't 
 
 In this post we'll delve into the foundation of a design system: design language.
 
-"A Design Language is a shared vocabulary for design."
-
-- IBM
+"A Design Language is a shared vocabulary for design." - IBM
 
 # What Is A Design Language?
 
@@ -145,4 +144,4 @@ Before designing your kit, be sure to create a "working contract" with your team
 
 I hope part one served as good primer to design languages. Part three will cover Component Libraries. Feel free to let me know what you think about design systems down below.
 
-_All graphics are courtesy of [unDraw](https://undraw.co/illustrations?source=post_page---------------------------)._
+_All graphics are courtesy of [unDraw](https://undraw.co/illustrations)._

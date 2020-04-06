@@ -4,6 +4,7 @@ date: "2019-04-14"
 slug: "/ux-engineering"
 description: A few months ago I was thrilled to be officially deemed a "UX Engineer" (UXE) at LogMeIn. I was going to get the chance to build Design Systems! But once the excitement wore off, I quickly realized how undefined the UXE role is. I tried Googling the position but came up empty handed.
 headerImage: "https://cdn-images-1.medium.com/max/1600/1*3jXyhPHEuXR4kTcaJmoBVQ.jpeg"
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*3jXyhPHEuXR4kTcaJmoBVQ.jpeg" />
@@ -21,12 +22,12 @@ A UX Engineer (UXE) is a Front-End Engineer who sits on a cross-functional desig
 
 UXEs possess the skill-set of a Front-end Engineer but with working knowledge of UX design principles. Their primary domain focuses on the design/UI component layer of an application and steers away from the middleware layer between front-end and back-end development.
 
-### Where Do UXEs Fit Into The Process?
+## Where Do UXEs Fit Into The Process?
 
 UXEs sit between design and front-end engineering.
 ![UX Engineer = UX & visual design knowledge + front-end development skills](https://cdn-images-1.medium.com/max/1600/1*2xFn0paLMjLGZmbvgmww9w.png)
 
-### How Are Their Skills Different From Front-End Engineers?
+## How Are Their Skills Different From Front-End Engineers?
 
 Since UXEs are at their core Front-End Engineers, there should be overlap between them, but UXEs employ design skills and are more focused on the UI than the middleware layer.
 
@@ -38,7 +39,7 @@ In general, UXEs work on building Design Systems, so let's take a second to defi
 
 A Design System is the set of guidelines and assets which convey a sense of identity within multiple flagship products or applications. It's comprised of three pieces: the design language, component library, and style guide.
 
-### Design Language
+## Design Language
 
 The visual design assets and branding guidelines necessary to create your system. Here are some examples of branding guidelines you may see.
 
@@ -47,7 +48,7 @@ The visual design assets and branding guidelines necessary to create your system
 - Typography scale
 - Animation library
 
-### Component Library
+## Component Library
 
 The coded components used to bring the design language to life. These components are built using HTML, CSS, and JavaScript. Some of the most popular Design Systems use the following JavaScript libraries and frameworks, but may also include native (vanilla JS) web components:
 
@@ -56,7 +57,7 @@ The coded components used to bring the design language to life. These components
 - Angular
 - Polymer
 
-### Style Guide
+## Style Guide
 
 The website which documents and encapsulates both the design language and component library. [IBM Carbon](https://www.carbondesignsystem.com/) is a great style guide I recommend checking out.
 
@@ -74,7 +75,7 @@ This is one area that varies vastly company to company, but here are a couple of
 
 The qualifications for a UXE vary company to company, however they primarily include front-end development skills with a sprinkling of user experience knowledge.
 
-### UX Design Skills
+## UX Design Skills
 
 Here are a few examples of UX design knowledge that a UXE might be expected to understand:
 
@@ -84,7 +85,7 @@ Here are a few examples of UX design knowledge that a UXE might be expected to u
 - Why it's better to place dark-colored text on light colored backgrounds than vice versa (the contrast is much starker with this combination).
 - Why you should never place text over a background image without either a background overlay, a drop shadow, or reduced image contrast or opacity (the text, whether black white or colored, will blend into the different shades of the image; if we have white text over an image it will clearly stand out against the darker areas of the images and fade into the background of the lighter parts of the image.)
 
-### UI Design Skills
+## UI Design Skills
 
 You may also want to familiarize yourself with some of the tooling used by the design team. These may include the following.
 
@@ -96,7 +97,7 @@ Typically if you have experience with one of these tools, the general skills tra
 
 If you're looking to obtain a UXE role, I highly recommend the book [Refactoring UI](https://refactoringui.com/) and the course [Design For Developers](https://frontendmasters.com/courses/design-for-developers/) by Sarah Drasner.
 
-### Front-End Development Skills
+## Front-End Development Skills
 
 Since UXEs primary knowledge set is front-end development, you should feel comfortable with basic engineering principles and front-end development skills.
 
@@ -114,7 +115,7 @@ Here are a few skills you might want to brush up on prior to applying for a UXE 
 - **Version Control:** You must be comfortable with using version control. [Git](https://git-scm.com/) is one of the most popular, so be sure to brush up on your skills!
 - **Package & Dependency Managers:** You'll be working to create a package that your engineering teams can leverage in their workflow, so you should be knowledgeable about [npm](https://www.npmjs.com/) and [yarn](https://yarnpkg.com/en/).
 
-### Soft Skills
+## Soft Skills
 
 As a UXE you will interface with the Design System stakeholders: the design team, engineering teams, and product management. As a result, you must have great communication skills.
 

@@ -4,6 +4,7 @@ date: "2019-01-14"
 slug: "/how-to-learn-javascript"
 description: In today’s day and age, coding is becoming more popular than ever. It’s not uncommon for people to quit their jobs, learn coding, and get a front-end development position as a second career.
 headerImage: "https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />

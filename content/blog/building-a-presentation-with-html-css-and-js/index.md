@@ -4,6 +4,7 @@ date: "2019-01-02"
 slug: "/building-a-presentation-with-html-css-and-js"
 description: Building beautiful presentations is hard. Often you're stuck with Keynote or PowerPoint, and the templates are extremely limited and generic. Well not anymore.
 headerImage: "https://cdn-images-1.medium.com/max/2000/1*d57o560SJ8jthOajFUxMfA.jpeg"
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/2000/1*d57o560SJ8jthOajFUxMfA.jpeg" />
@@ -14,7 +15,7 @@ Today, we're going to learn how to create a stunning and animated presentation u
 
 If you're a beginner to web development, don't fret! This tutorial will be easy enough to keep up with. So let's slide right into it!
 
-![Getting started](https://cdn-images-1.medium.com/max/2000/1*CN43a2YgQ82c5Fl1wIoZ2A.png)
+# Getting started
 
 We're going to be using an awesome framework called [Reveal.js](https://revealjs.com/#/). It provides robust functionality for creating interesting and customizable presentations.
 
@@ -28,15 +29,15 @@ We're going to be using an awesome framework called [Reveal.js](https://revealjs
 
 The `index.html` file holds all of the markup for the slides. This is one of the downsides of using Reveal.js; all of the content will be placed inside this HTML file.
 
-![Themes](https://cdn-images-1.medium.com/max/2000/1*m53gA3UQzLjzYBGFlaNtDQ.png)
+# Themes
 
-# Built-In Themes
+## Built-In Themes
 
 Reveal includes 11 built-in themes for you to choose from:
 
 ![Themes](https://cdn-images-1.medium.com/max/2600/1*ap5v9NJodgzByZEJzMCGfA.jpeg)
 
-# Changing The Theme
+## Changing The Theme
 
 1. Open `index.html`
 2. Change the CSS import to reflect the theme you want to use
@@ -57,15 +58,13 @@ The theme files are:
 - `solarized.css`
 - `white.css`
 
-# Custom Themes
+## Custom Themes
 
 It's quite easy to create a custom theme. Today, I'll be using my custom theme from a presentation I gave called ["How To Build Kick-Ass Website: An Introduction To Front-end Development."](https://emmawedekind.github.io/how-to-become-a-web-developer/)
 
 Here is what my custom slides look like:
 
 ![Slides](https://cdn-images-1.medium.com/max/2000/1*ihTBdnMw9G83aD1hj45__w.png)
-
-### Creating A Custom Theme
 
 1. Open `css/theme/src` inside your IDE. This holds all of the Sass files (`.scss`) for each theme. These files will be transpiled to CSS using Grunt (a JavaScript task runner). If you prefer to write CSS, go ahead and just create the CSS file inside css/theme.
 2. Create a new `.scss` file. I will call mine `custom.scss`. You may have to stop your localhost and run `npm run build` to transpile your Sass code to CSS.
@@ -84,7 +83,7 @@ Here are the variables I chose to use:
 
 _Unfortunately, due to time constraints, I'll admit that I used quite a bit of `!important` overrides in my CSS. This is horrible practice and I don't recommend it. The `reveal.css` file has extremely specific CSS styles, so I should have, if I had more time, gone back and ensured my class names were more specific so I could remove the `!importants`._
 
-### Mixins & Settings
+## Mixins & Settings
 
 Reveal.js also comes with mixins and settings you can leverage in your custom theme.
 
@@ -104,20 +103,20 @@ All you have to do is pass in the required parameters (color value) and voila, y
 **Settings**
 In the settings file, you'll find useful variables like heading sizes, default fonts and colors, and more!
 
-![Content](https://cdn-images-1.medium.com/max/2000/1*lK72ePLIQbehCt0BLgidTg.png)
+# Comtent
 
-# Elements
+## Elements
 
 The structure for adding new content is:
 `.reveal > .slides > section`
 
 The `<section>` element represents one slide. Add as many sections as you need for your content.
 
-### Vertical Slides
+## Vertical Slides
 
 To create vertical slides, simply nest sections.
 
-# Transitions
+## Transitions
 
 There are several different slide transitions for you to choose from:
 
@@ -130,7 +129,7 @@ There are several different slide transitions for you to choose from:
 
 To use them, add a `data-transition="{name}"` to the `<section>` which contains your slide data.
 
-# Fragments
+## Fragments
 
 Fragments are great for highlighting specific pieces of information on your slide. Here is an example.
 

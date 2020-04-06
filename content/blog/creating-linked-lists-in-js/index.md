@@ -4,6 +4,7 @@ date: "2019-04-29"
 slug: "/creating-linked-lists-in-js"
 description: A singly linked list is a data structure which represents a series of nodes where each node points to the next node in the list. A doubly linked list, in contrast, has nodes which point to the element preceding and following it.
 headerImage: "https://cdn-images-1.medium.com/max/1600/1*xSRTv4g2tofWQktkUwoRog.png"
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*xSRTv4g2tofWQktkUwoRog.png" />
@@ -59,7 +60,7 @@ Our node list will contain five methods:
 - `isEmpty()`: Returns a boolean indicating whether the list is empty
 - `printList()`: A method, not native to linked lists, which will print out our list; it’s primarily for debugging purposes
 
-### Constructor
+## Constructor
 
 I’m going to be using JavaScript class syntax, although you could also use a closure to create a linked list. So let’s set up the constructor.
 
@@ -79,7 +80,7 @@ class LinkedList {
 }
 ```
 
-### IsEmpty
+## IsEmpty
 
 The `isEmpty()` method is a helper function which returns true if the list is empty.
 
@@ -89,7 +90,7 @@ isEmpty() {
 }
 ```
 
-### printList
+## Print
 
 This utility method will print the nodes in the list. This is solely meant for debugging purposes.
 
@@ -105,7 +106,7 @@ printList () {
 }
 ```
 
-### Push
+## Push
 
 Our push method needs to check whether the list is empty or not before adding a new node. How do we know if the list is empty? Two ways:
 
@@ -151,7 +152,7 @@ push(value) {
 }
 ```
 
-### Pop
+## Pop
 
 Our pop method needs check the following two things before removing the last item in the list:
 
@@ -286,7 +287,7 @@ pop() {
 }
 ```
 
-### Get
+## Get
 
 Our get method must check for three situations:
 
@@ -364,7 +365,7 @@ return current;
 }
 ```
 
-### Delete
+## Delete
 
 Our delete method will also have to account for three special use cases:
 

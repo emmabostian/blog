@@ -4,6 +4,7 @@ date: "2019-02-26"
 slug: "/how-i-gained-65000-twitter-followers-in-one-year"
 description: In the last eight months, I’ve gained about 42,000 followers, and people always ask me how I did it.
 headerImage: "https://images.unsplash.com/photo-1487243528516-7fa712e910f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1487243528516-7fa712e910f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />
@@ -91,27 +92,27 @@ So now that we've explored the follower breakdown, let's take a look at some of 
 
 I want to note that follower count, by no means, should have an effect on your self-worth. And while I had quick growth, it often takes years for people to gain a following. So please take these tips with a grain of salt.
 
-### Post Consistently
+## Post Consistently
 
 The biggest piece of advice I got from my co-worker [Kahlil Lechelt](https://twitter.com/kahliltweets) was to post consistently, even if no one is listening. In general, people don't get popular overnight; it takes time. The more you post, the bigger your backlog of content becomes. And people enjoy following others with large amounts of content.
 
-### Interact With The Community
+## Interact With The Community
 
 I try my hardest to respond to every message I receive and to interact with people. This has proved invaluable. People want to know that you're listening to them. When I have a positive interaction with someone in the community, I tend to value their tweets just a little bit more.
 
-### Post Relatable Content
+## Post Relatable Content
 
 I try to tweet things that are relevant to all, and I don't always sugarcoat everything. I'm not sure why more developers aren't vocal about failing a job interview, or struggling with impostor syndrome. These issues affect nearly all developers and talking openly about how it affects me has greatly impacted my following.
 
-### Be Myself
+## Be Myself
 
 You should never try to be someone you're not (in person or online). If you get popular from posting things that don't reflect who you are, you gained popularity for the wrong reasons.
 
-### Create Content That Interests Me
+## Create Content That Interests Me
 
 I firmly believe that you should create the content that interests you. Whether that's through blogging or making video tutorials, find the platform and the topics which interest you. If you don't enjoy writing or speaking about the topics you create, no one will enjoy reading it. And just because a topic has been blogged about previously doesn't mean you shouldn't create content in that subject area. People learn in all different ways; perhaps your content will reach a developer who was previously struggling in that area.
 
-### Never Set Goals To Gain X Amount Of Followers
+## Never Set Goals To Gain X Amount Of Followers
 
 I've seen several tweets that set goals to reach a certain number of followers, yet I urge people to not focus on the numbers and instead focus on the quality of the followers you receive. If you're always chasing numbers, you'll never be happy (whether that's with weight loss or follower count). Focus on the meaningful interactions you have through social media platforms.
 
@@ -119,15 +120,15 @@ I've seen several tweets that set goals to reach a certain number of followers, 
 
 While I am totally in awe of the growth I've achieved on Twitter, it's not without its drawbacks. If your goal is to grow your follower base, please be aware that it's not all rainbows and butterflies. Below are some of the issues I struggle with each day.
 
-### Time Consumption
+## Time Consumption
 
 I spend a vast amount of time interacting with the community (upwards of 4 hours a day). It can often feel like a full-time job. And this takes a toll on my mental health. It also means that I spend less time doing other things such as exercising, writing blogs, and reading.
 
-### Negativity
+## Negativity
 
 Gaining a following increases the amount of negativity and rude comments you'll receive. This is something I struggle with. I am a people pleaser that hates conflict. I'm still learning to deal with the negativity.
 
-### Pressure To Create
+## Pressure To Create
 
 I love creating content, but recently I've been feeling pressure to push as much content out as I can. Yet as a result, the quality can suffer, as well as my mental health. Learning to prioritize is something I struggle with each and every day.
 

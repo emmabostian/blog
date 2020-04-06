@@ -4,6 +4,7 @@ date: "2018-12-18"
 slug: "/five-books-which-will-improve-your-career"
 description: The following five books changed my outlook on not only my career, but my life. They've motivated me to be my best self and achieve my biggest goals.
 headerImage: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+draft: true
 ---
 
 <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />

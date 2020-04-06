@@ -4,6 +4,7 @@ date: "2018-12-18"
 slug: "/five-mistakes-you-are-making-in-your-technical-interviews"
 description: Technical interviews are the most nerve-wracking experiences in any engineer's career. Often, you're so worried about impressing the interviewers that you forget to relax and be yourself.
 headerImage: "https://images.unsplash.com/photo-1536139825125-2026747cd156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+draft: true
 ---
 
 <img src="https://images.unsplash.com/photo-1536139825125-2026747cd156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="blogTemplate__headerImage" />

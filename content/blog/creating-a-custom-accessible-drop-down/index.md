@@ -4,6 +4,7 @@ date: "2019-02-28"
 slug: "/creating-a-custom-accessible-drop-down"
 description: Creating custom components is hard. You have to override a lot of default browser styling, and often this can be tedious.
 headerImage: "https://images.unsplash.com/photo-1529465230221-a0d10e46fcbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1529465230221-a0d10e46fcbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
@@ -19,9 +20,6 @@ Thus, we must "hack" our way to creating a drop down. Unfortunately, this typica
 In this tutorial, we'll learn how to create a custom select drop down, while abiding by the W3C accessibility standards.
 
 # Step 1 - HTML
-
-Here is the drop down we're going to be creating:
-{% codepen https://codepen.io/emmawedekind/pen/eXNppG %}
 
 Traditionally, when creating a select drop down, you would use the following:
 
@@ -67,11 +65,9 @@ You might be wondering: "Can't you re-write the HTML to the following (using the
 
 The answer is unfortunately **no**. You cannot place a `<div>` inside of a `<select>`.
 
-{% codepen https://codepen.io/emmawedekind/pen/ZPbapL %}
-
 So we must create an accessible workaround.
 
-### Creating A Custom Select
+## Creating A Custom Select
 
 Since we can't use the `<select>` element, I'm electing to use a series of `<ul>` and `<li>` elements.
 
@@ -115,7 +111,7 @@ This is pretty simple.
 
 But... this isn't accessible. If a visually impaired user, with the help of assistive technology, visits this page, they won't have a clue that this is a drop down or how to interact with it. Additionally, it's completely inaccessible by keyboard.
 
-### Making The Custom Element Accessible
+## Making The Custom Element Accessible
 
 A custom element must function the same as the semantic elements in regards to keyboard navigation and screen reader accessibility.
 
@@ -182,7 +178,7 @@ We also need to add some JavaScript logic to ensure that the component functions
 
 So now let's implement it.
 
-### Implementing Keyboard Accessibility With JavaScript
+## Implementing Keyboard Accessibility With JavaScript
 
 First, we need to grab the keycodes for the Spacebar, Enter key, up and down arrow keys, and the Escape key. (I've seen the Spacebar represented as 0 and 32, so I set it to both to be safe).
 

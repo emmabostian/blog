@@ -4,6 +4,7 @@ date: "2019-03-16"
 slug: "/using-git-tags-to-version-coding-tutorials"
 description: Coding tutorials can be difficult to structure. It’s often so easy to get caught up in your expanding code base and keep track of important project milestones. Wouldn’t it be great if there was a solution?
 headerImage: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />

@@ -10,7 +10,6 @@ const BlogPost = ({ title, description, headerImage, slug, wide = false }) => {
       <div className="blogPost__content">
         <div className="blogPost__textContent">
           <p className="blogPost__title">{title}</p>
-          <p className="blogPost__description">{description}</p>
         </div>
         <Link to={slug} className="blogPost__button">
           <img

@@ -4,6 +4,7 @@ date: "2019-02-25"
 slug: "/six-mistakes-you-might-be-making-as-a-new-web-developer"
 description: Learning web development is intimidating. There are so many resources and tutorials that it can quickly seem overwhelming.
 headerImage: "https://cdn-images-1.medium.com/max/2000/1*_BSX61CxShyqW7oT7Kgc8Q.jpeg"
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/2000/1*_BSX61CxShyqW7oT7Kgc8Q.jpeg" />

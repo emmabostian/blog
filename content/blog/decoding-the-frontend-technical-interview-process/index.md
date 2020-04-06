@@ -4,6 +4,7 @@ date: "2019-01-02"
 slug: "/decoding-the-frontend-technical-interview-process"
 description: As a front-end developer, it’s inevitable that you will encounter a front-end technical interview (or ten). Unfortunately the process for a front-end development interview can be a bit unclear, and will vary from company to company.
 headerImage: "https://cdn-images-1.medium.com/max/2000/1*xkonqtSYYtYCTkNMPpk8XQ.jpeg"
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/2000/1*xkonqtSYYtYCTkNMPpk8XQ.jpeg" />
@@ -14,7 +15,7 @@ Having a solid understanding of the process will help you feel more comfortable 
 
 So let’s take a look at the front-end development interview process and learn some tips to have successful interviews.
 
-![Process](https://cdn-images-1.medium.com/max/2000/1*yQ66ke-0OnlzZj4q3P3RvA.jpeg)
+# The Process
 
 I’ve had many front-end job interviews. In fact, interviewing is a skill that most people take for-granted, and front-end development interviews are some of the most difficult interviews out there.
 
@@ -26,7 +27,7 @@ In my experience, while interviewing for jobs all over the United States, as wel
 
 So let’s break down the different components of a front-end development interview.
 
-![Cultural Interview](https://cdn-images-1.medium.com/max/1600/1*fcZywk0H7Od5QMt1RTdAvQ.jpeg)
+# Cultural Interview
 
 The cultural interview is often candidate’s first impression within a company, so don’t take these interviews lightly. Although typically cultural interviews aren’t as terrifying as coding interviews, interviewers can make or break your application.
 
@@ -44,7 +45,7 @@ You can see that Max was clearly unprepared for this question and doesn’t seem
 
 With Paige, however, she is much more well-spoken. Not only was she able to succinctly sum up her experience, but her responses elicited emotion and pride in regards to her previous roles. Plus, throwing in a line or two about her hobbies gives insight into the type of person she is.
 
-### Tips for the cultural interview:
+## Tips for the cultural interview:
 
 - Have a short story prepared to illustrate who you are
 - Have 1–2 stories which demonstrate your greatest achievement and a difficult problem you solved
@@ -55,7 +56,7 @@ With Paige, however, she is much more well-spoken. Not only was she able to succ
 - Don’t ask about minute specifics of salary or benefits. These details can be sorted out once you have an offer letter. But inquiring about the perks of a job too quickly can portray you as someone who’s only there for the money.
 - Be yourself. This interview is a two-way street. You want to make sure the company culture harmonizes with your personality. So don’t put on an act; be yourself.
 
-![Coding Interview](https://cdn-images-1.medium.com/max/1600/1*yZUaz8X6_Wc2LIW-jP1J5Q.jpeg)
+## Coding Interview
 
 Ahh the dreaded coding interview. Personally, this was always the most nerve-wracking part of the process.
 
@@ -75,7 +76,7 @@ I know it’s a lot to master, however if you practice a little every day, you�
 
 There are several websites which can help you prepare for your coding interviews. I’ll list my favorites in the resources down below!
 
-### Tips For The Coding Interview:
+## Tips For The Coding Interview:
 
 - Think out loud. It’s important for the interviewer to hear your thought process!
 - If you’re unclear about one of the directions, ask. Sometimes interviewers will even give you a hint.
@@ -84,7 +85,7 @@ There are several websites which can help you prepare for your coding interviews
 - If you have a solution, try to improve the performance or run-time. Optimization is key.
 - If you don’t know the answer, it’s okay. I would often admit: “To be honest, I’m not sure, but if I had to make an educated guess…” I’ve seen candidates fully bullshit their way through a question, and pretend it’s right as rain. In my opinion it’s better to admit when you don’t know, but give an educated guess.
 
-![Take Home Challenge](https://cdn-images-1.medium.com/max/1600/1*eJOHIN5rXy6D9pJr7ZyQgA.jpeg)
+## Take Home Challenge
 
 Some jobs may not require you to complete a take home challenge. But if they do, it’s your chance to showcase your awesome development skills without the pressure of being watched.
 
@@ -98,7 +99,7 @@ Whatever the challenge is, do your best and write clean code. Here’s the proce
 
 ![List](https://cdn-images-1.medium.com/max/2000/1*4KW4LzmrItmlwOway1F3Ag.jpeg)
 
-### Questions To Ask Yourself Before Submission:
+## Questions To Ask Yourself Before Submission:
 
 - Did I meet all of the project requirements?
 - Is my solution performant?
@@ -110,14 +111,14 @@ Whatever the challenge is, do your best and write clean code. Here’s the proce
 
 If the answer to any of these is no, you might want to go back and re-work a few things.
 
-### Tips For The Take Home Challenge:
+## Tips For The Take Home Challenge:
 
 - Don’t spend more than a day on it. If you’re spending several days on it, most likely you should go back and work on some of your technical skills.
 - It’s okay to pull yourself out of the candidate pool. I have had interviews in the past where I’ve had to email the recruiter and tell them that my skills weren’t where they needed to be. This shows them a level of self-awareness. I have even had recruiters come back to me several times to see if I was still interested in an interview. It’s okay to admit when you have areas to improve upon. Plus, you don’t want to stress yourself out with a challenge that is too difficult, because when you get a job offer, chances are the job will stress you out just as much.
 - Be clear about the project requirements. Do they want you to use a JS framework? Can you use a CSS framework to save time on style?
 - If you need additional time, just ask. Recruiters know that you’re busy, and as such life can get in the way of an interview. So instead of half-assing your take home challenge, email the interviewer and let them know that this is extremely important to you, and you want to devote a proper amount of time to completing it. Most companies would prefer you spend a few more days on an assessment than sacrifice the quality.
 
-![Final Meeting](https://cdn-images-1.medium.com/max/1600/1*4e4Tc2exFr5GxLpZPK-68w.jpeg)
+# Final Meeting
 
 If you’ve made it this far in the process, CONGRATULATIONS!!!
 
@@ -130,7 +131,7 @@ You are a badass, and this company knows it! Here are a few things to keep in mi
 - You can ask for more money, if it’s appropriate to the average salary for your job role and location.
 - Ask if relocation assistance is available. If you’re moving across the country (or world, like I did!), lack of financial assistance may be a deal breaker.
 
-![Final Thoughts](https://cdn-images-1.medium.com/max/2000/1*ZiAp4sJgEZEXCa8vIF4uEg.jpeg)
+# Final Thoughts
 
 You are a superstar and you will have to trudge through some painful interviews to find the job of your dreams!
 
@@ -140,7 +141,7 @@ All great things in life take time. Do not get discouraged and do not give up. R
 
 ![Superhero](https://cdn-images-1.medium.com/max/1600/1*sYlyqQvIHGjVRnMFjWp_oA.png)
 
-![Resources](https://cdn-images-1.medium.com/max/2000/1*y75-uRvBiZd7RM3_utcogg.jpeg)
+# Resources
 
 ### Coding Practice
 

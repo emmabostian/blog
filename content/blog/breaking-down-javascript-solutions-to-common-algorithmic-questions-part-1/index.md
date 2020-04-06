@@ -4,6 +4,7 @@ date: "2019-02-20"
 slug: "/breaking-down-javascript-solutions-to-common-algorithmic-questions-part-1"
 description: Have you ever struggled to develop an algorithm solution on a technical interview?
 headerImage: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />

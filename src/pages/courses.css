@@ -47,3 +47,24 @@
   width: calc(100% - 225px);
   margin: 0 24px;
 }
+
+@media (max-width: 600px) {
+  .course__link {
+    width: 120px;
+    height: 54px;
+  }
+
+  .course__buttonIcon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .course__content p {
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .course__title {
+    font-size: 20px;
+  }
+}

@@ -4,6 +4,7 @@ date: "2019-05-10"
 slug: "/bubble-sort-in-js"
 description: Bubble Sort is one of the most widely discussed algorithms, simply because of its lack of efficiency for sorting arrays. If an array is already sorted, Bubble Sort will only pass through the array once (using concept two below), however the worst case scenario is a run time of O(N²), which is extremely inefficient.
 headerImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--07zcSdEZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--eW0HHRf3--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/33xa7g8q5p9r7nmzhgbo.png"
+draft: false
 ---
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--07zcSdEZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--eW0HHRf3--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/33xa7g8q5p9r7nmzhgbo.png" />
@@ -34,8 +35,6 @@ Let’s take a look at how this would be run on an array of length 6.
 
 ![Bubble Sort 1](https://cdn-images-1.medium.com/max/2400/1*aR2lKzbQtjc2afMbC8cwBg.png)
 
-### Concept 1 Code
-
 We need to have two pointers (two nested loops) for concept one. Each time we iterate through, the upper bound decreases by one, as we know that this index contains a sorted value.
 
 ```js
@@ -61,8 +60,6 @@ function bubbleSortConcept1(arr) {
 - We know that the array is sorted when no swaps have occurred.
 
 ![Bubble sort 2](https://cdn-images-1.medium.com/max/2400/1*s1TDbwc9WnF8QBOxObkm7g.png)
-
-### Concept 2 Code
 
 We only need one pointer with this method, as we’re using a variable to store a Boolean, indicating whether or not a swap occurred. In contrast to concept one, this concept requires us to iterate through each item in the array each time we pass through it.
 

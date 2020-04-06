@@ -40,21 +40,13 @@
   margin-top: 16px;
 }
 
-.blogPost__description {
-  margin: 0;
-  margin-bottom: 16px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .blogPost__content {
   display: flex;
   justify-content: space-between;
 }
 
 .blogPost__textContent {
-  padding-left: 24px;
+  padding: 24px;
   max-width: 70%;
 }
 

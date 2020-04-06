@@ -4,6 +4,7 @@ date: "2019-07-09"
 slug: "/one-hundred-one-tips-for-being-a-great-programmer"
 description: Who knew I could write 101 tips?
 headerImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--MWNcFGz1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--IJbLKGRl--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/lvd7833iaybplrnrtttc.png"
+draft: false
 ---
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--MWNcFGz1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--IJbLKGRl--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/lvd7833iaybplrnrtttc.png" />

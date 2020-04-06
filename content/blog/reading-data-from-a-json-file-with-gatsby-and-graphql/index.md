@@ -4,6 +4,7 @@ date: "2019-01-14"
 slug: "/reading-data-from-a-json-file-with-gatsby-and-graphql"
 description: Have you ever wanted to read data from a JSON file with Gatsby? Now you can!
 headerImage: "https://cdn-images-1.medium.com/max/800/1*_GoJNtJ544CcXgLtkrQ7Lg.png"
+draft: true
 ---
 
 <img src="https://cdn-images-1.medium.com/max/800/1*_GoJNtJ544CcXgLtkrQ7Lg.png" />

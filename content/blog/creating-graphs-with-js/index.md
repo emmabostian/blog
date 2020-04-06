@@ -4,6 +4,7 @@ date: "2019-05-07"
 slug: "/creating-graphs-with-js"
 description: Graphs are a data structure comprised of a collection of nodes with edges. A graph can be directed or undirected.
 headerImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--Bi5rNnIZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--q1ZcWtbG--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/of29jor31c5t2prhhpnn.png"
+draft: false
 ---
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Bi5rNnIZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--q1ZcWtbG--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/of29jor31c5t2prhhpnn.png" />

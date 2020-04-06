@@ -4,6 +4,7 @@ date: "2019-05-06"
 slug: "/documenting-react-components-with-storybook"
 description: Storybook markets itself as a playground for UI components and its main focus is on “writing stories.”
 headerImage: "https://res.cloudinary.com/practicaldev/image/fetch/s--vF8bRDA2--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--babqTEbc--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/0dngsoi2muq6rp4k420j.png"
+draft: false
 ---
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vF8bRDA2--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--babqTEbc--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/0dngsoi2muq6rp4k420j.png" />
@@ -73,7 +74,7 @@ npm install babel-loader @babel/core --save-dev
 
 5. We’ll want to add an npm script so we can easily start Storybook. Inside our `package.json` file, let’s add a storybook script.
 
-```
+```js
 {
   "scripts": {
     "storybook": "start-storybook"
@@ -87,14 +88,14 @@ You most likely already have this file created from the previous steps, however 
 
 My `config.js` file contains the following:
 
-```
-import { configure } from "@storybook/react";
+```js
+import { configure } from "@storybook/react"
 
 function loadStories() {
-  require("../src/stories");
+  require("../src/stories")
 }
 
-configure(loadStories, module);
+configure(loadStories, module)
 ```
 
 This tells Storybook to look inside of the `src/stories` folder for our stories.
@@ -104,22 +105,22 @@ This tells Storybook to look inside of the `src/stories` folder for our stories.
 1. Ensure your development server is running with npm run storybook.
 2. First, we’ll get rid of the boilerplate inside of `src/stories/index.js`. My file looks like this:
 
-```
-import React from "react";
-import { storiesOf } from "@storybook/react";
-import { action } from "@storybook/addon-actions";
+```js
+import React from "react"
+import { storiesOf } from "@storybook/react"
+import { action } from "@storybook/addon-actions"
 ```
 
 3. Now, let’s import our first component. For my project, I’ll be importing my Button component. It lives directly inside of the src/ folder.
 
-```
-import Button from '../Button';
+```js
+import Button from "../Button"
 ```
 
 I’m using enums to describe my button types, so I’ll import those as well.
 
-```
-import { ButtonTypes } from "../buttonTypes";
+```js
+import { ButtonTypes } from "../buttonTypes"
 ```
 
 4. We now want to write our first `storiesOf` for our button. We’ll start with three states: primary, secondary, and tertiary.
@@ -173,8 +174,8 @@ Next, I’ll copy and paste all of the code from the `index.js` file over to thi
 
 Lastly, I’ll update `index.js` to import the `buttonStories.js` file.
 
-```
-import "./buttonStories";
+```js
+import "./buttonStories"
 ```
 
 And that’s it! You now can create Storybook stories to document the states of your component.
@@ -183,7 +184,7 @@ And that’s it! You now can create Storybook stories to document the states of 
 
 You can select different themes for your Storybook documentation.
 
-### Dark Theme
+## Dark Theme
 
 1. Import addParameters and themes:
 
@@ -210,7 +211,7 @@ And voila, a dark theme!
 
 ![Dark theme](https://cdn-images-1.medium.com/max/1600/1*BKgyh1nsEelEG4aLDqNSRA.png)
 
-### Custom Themes
+## Custom Themes
 
 You can generate a custom theme by using the create() function.
 

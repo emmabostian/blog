@@ -4,6 +4,7 @@ date: "2019-03-01"
 slug: "/how-to-boost-your-productivity-and-get-shit-done"
 description: I'm often asked how I am able to juggle so many tasks at once, and get a lot of things done.
 headerImage: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />

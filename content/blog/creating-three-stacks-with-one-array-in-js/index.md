@@ -4,11 +4,12 @@ date: "2019-04-26"
 slug: "/creating-three-stacks-with-one-array-in-js"
 description: A stack is a data structure that is based on the concept of “last-in-first-out” or “LIFO.”
 headerImage: "https://cdn-images-1.medium.com/max/1600/1*mt6FesJls6mq2FAPoLvb4A.png"
+draft: true
 ---
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*mt6FesJls6mq2FAPoLvb4A.png" />
 
-_This problem was a prompt from the [Cracking The Coding Interview](https://www.amazon.de/Cracking-Coding-Interview-6th-Programming/dp/0984782850/ref=asc_df_0984782850/?tag=googshopde-21&linkCode=df0&hvadid=310817730623&hvpos=1o1&hvnetw=g&hvrand=15089778271391464692&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9041968&hvtargid=pla-388890317700&psc=1&th=1&psc=1&tag=&ref=&adgrpid=70301320788&hvpone=&hvptwo=&hvadid=310817730623&hvpos=1o1&hvnetw=g&hvrand=15089778271391464692&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9041968&hvtargid=pla-388890317700) book. The exercise is: "Describe how you could use a single array to implement three stacks."_
+_This problem was a prompt from the Cracking The Coding Interview book. The exercise is: "Describe how you could use a single array to implement three stacks."_
 
 # What Is A Stack?
 
@@ -22,7 +23,7 @@ Our array will contain three different stacks of a fixed size. The top of the st
 
 Our stacks will have a **fixed size** which will be equal to the argument passed in at instantiation.
 
-### Properties
+## Properties
 
 The following properties will be initialized within the constructor:
 
@@ -31,7 +32,7 @@ The following properties will be initialized within the constructor:
 - `sizes`: An array with three indices, each representing the current number of elements in the respective stacks.
 - `numberOfStack`s: A constant which represents the total number of stacks we’ll allow our array to hold. We’re initializing this to three, however future iterations of this MultiStack class could take in a second argument to customize the number of stacks the array can hold.
 
-### Methods
+## Methods
 
 Our MultiStack class will contain the following methods:
 
@@ -43,7 +44,7 @@ Our MultiStack class will contain the following methods:
 - `isFull(stackNumber)`: Returns a boolean which indicates whether the respective stack is full.
 - `indexOfTop(stackNumber)`: A helper method which returns the index, in the values array, of the top element in the respective stack.
 
-### Constructor
+## Constructor
 
 The first thing we’ll do is create our constructor. It will take in one argument, the stack size. Thus, the total length of our values array will be 3 \* the stack size (since we’re initializing `numberOfStacks` to three).
 
@@ -51,7 +52,7 @@ We will initialize the sizes array to contain three indices with the value zero.
 
 {% gist https://gist.github.com/emmawedekind/a5cc50a53ecbf2c9bf36a10ecebc2e68 %}
 
-### Get Stack Capacity
+## Get Stack Capacity
 
 This method returns the total capacity of each of the stacks (this is just a way for me to check that everything is working as expected, we won’t really be using this.)
 
@@ -59,19 +60,19 @@ You can read more about JavaScript getters on [MDN](https://developer.mozilla.or
 
 {% gist https://gist.github.com/emmawedekind/9aa845f02022799ca025f52f2532916e %}
 
-### isFull
+## isFull
 
 This method returns a boolean which indicates whether the respective stack is full. It will check how many elements are currently on the respective stack and compare it against the stack capacity.
 
 {% gist https://gist.github.com/emmawedekind/68b69e80b8ba094e41021eb7a5316e04 %}
 
-### isEmpty
+## isEmpty
 
 This method returns a boolean which indicates whether the respective stack has values.
 
 {% gist https://gist.github.com/emmawedekind/0ea9938212581c0e674aaf18ef401bc2 %}
 
-### indexOfTop
+## indexOfTop
 
 This is a helper method which returns the index, in the values array, of the top element in the respective stack.
 
@@ -124,7 +125,7 @@ The code for this is as follows:
 
 {% gist https://gist.github.com/emmawedekind/68e03ab0cf6e0953cecc34a0357825f9 %}
 
-### Push
+## Push
 
 The push method pushes a value onto the top of the respective stack. It takes in two arguments:
 
@@ -138,7 +139,7 @@ The push method pushes a value onto the top of the respective stack. It takes in
 
 {% gist https://gist.github.com/emmawedekind/cfa55d3917600c9e6798a3acf254ad6d %}
 
-### Pop
+## Pop
 
 This method pops the top item off of the respective stack number. It takes in one argument:
 
@@ -154,7 +155,7 @@ This method pops the top item off of the respective stack number. It takes in on
 
 {% gist https://gist.github.com/emmawedekind/1adf0351f95cd645a6f870def6cb5593 %}
 
-### Peek
+## Peek
 
 This method returns the top item off of the respective stack number. It doesn’t alter the stack, it simply lets you view the element on the top. It takes in one argument:
 

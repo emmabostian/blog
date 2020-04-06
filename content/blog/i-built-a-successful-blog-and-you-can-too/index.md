@@ -4,6 +4,7 @@ date: "2019-12-09"
 slug: "/i-built-a-successful-blog-and-you-can-too"
 description: At the time of writing this post, I've been blogging on the Dev Community for almost a year and have 12,509 followers.
 headerImage: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />

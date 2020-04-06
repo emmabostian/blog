@@ -1,4 +1,27 @@
 .blogs__wrapper {
   display: flex;
   flex-direction: column;
+  width: 600px;
+}
+
+.blogs__search {
+  border: 2px solid #000;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.blogs__search-title {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.blogs__search-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogs__search-wrapper p {
+  margin: 0;
 }
