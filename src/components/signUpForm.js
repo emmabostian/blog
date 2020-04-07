@@ -9,6 +9,7 @@ const SignUpForm = () => {
     LNAME: "",
   })
   const [subscribed, setSubscribed] = useState(false)
+  const emailValidation = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/
 
   const handleEmailChange = e => {
     setEmail(e.currentTarget.value)
@@ -28,6 +29,8 @@ const SignUpForm = () => {
   }
 
   const formatName = name => {
+    if (name.length === 0) return ""
+
     let letters = name.split("")
     return letters.shift().toUpperCase() + letters.join("")
   }
@@ -55,6 +58,12 @@ const SignUpForm = () => {
           handleSubmit={handleSubmit}
           handleEmailChange={handleEmailChange}
           handleNameChange={handleNameChange}
+          active={
+            email.length > 0 &&
+            email.match(emailValidation) &&
+            listFields.FNAME.length > 0 &&
+            listFields.LNAME.length > 0
+          }
         />
       ) : (
         <SubscribedMessage />
@@ -63,7 +72,12 @@ const SignUpForm = () => {
   )
 }
 
-const Form = ({ handleSubmit, handleEmailChange, handleNameChange }) => (
+const Form = ({
+  handleSubmit,
+  handleEmailChange,
+  handleNameChange,
+  active,
+}) => (
   <form className="signUpForm" onSubmit={handleSubmit}>
     <div className="signUpForm__group">
       <label htmlFor="sign-up-email">Email</label>
@@ -98,7 +112,9 @@ const Form = ({ handleSubmit, handleEmailChange, handleNameChange }) => (
     <p className="signUpForm__error">
       Oops something went wrong, please try again!
     </p>
-    <button type="submit">Submit</button>
+    <button aria-disabled={!active} className="" type="submit">
+      Submit
+    </button>
   </form>
 )
 

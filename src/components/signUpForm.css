@@ -49,6 +49,11 @@
   width: 400px;
 }
 
+.signUpForm > button[aria-disabled="true"] {
+  background: #d8d8d8;
+  cursor: not-allowed;
+}
+
 .signUpForm {
   display: flex;
   flex-direction: column;
