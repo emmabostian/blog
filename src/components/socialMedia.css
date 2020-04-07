@@ -2,13 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid #d8d8d8;
-  border-right: 1px solid #d8d8d8;
-  height: 200px;
 }
 
 .socialMedia__link {
-  margin-right: 24px;
+  margin-right: 18px;
   display: flex;
   justify-content: center;
   align-items: center;

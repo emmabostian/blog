@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import BlogPost from "./blogPost"
+import "./backlog.css"
 
 export default () => (
   <StaticQuery
@@ -9,15 +10,7 @@ export default () => (
       let post1 = data.allMarkdownRemark.edges[1].node.frontmatter
       let post2 = data.allMarkdownRemark.edges[2].node.frontmatter
       return (
-        <aside
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            height: "1200px",
-          }}
-        >
+        <aside className="backlog">
           <h2 className="page__subHeader">Backlog</h2>
           <BlogPost
             title={post1.title}

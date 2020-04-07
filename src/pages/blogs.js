@@ -9,9 +9,6 @@ export default () => (
     query={query}
     render={data => {
       const [allBlogs] = useState(data.allMarkdownRemark.edges)
-      data.allMarkdownRemark.edges.map(({ node }) =>
-        console.log(node.frontmatter.draft)
-      )
       const [matchingPosts, setMatchingPosts] = useState(
         data.allMarkdownRemark.edges.filter(
           post => post.node.frontmatter.draft === false
@@ -34,7 +31,7 @@ export default () => (
           <h1>Blogs</h1>
           <div className="blogs__wrapper">
             <div className="blogs__search-wrapper">
-              <label className="blogs__search-title" for="blog-search">
+              <label className="blogs__search-title" htmlFor="blog-search">
                 Filter
               </label>
               <p>

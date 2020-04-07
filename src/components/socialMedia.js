@@ -12,8 +12,8 @@ export default () => (
       <img
         style={{
           margin: "0",
-          width: "24px",
-          height: "24px",
+          width: "18px",
+          height: "18px",
           margin: "0",
         }}
         src={twitter}
@@ -25,7 +25,7 @@ export default () => (
       href="https://www.instagram.com/emmabostian/"
     >
       <img
-        style={{ margin: "0", width: "24px", height: "24px" }}
+        style={{ margin: "0", width: "18px", height: "18px" }}
         src={instagram}
         alt="Instagram"
       />
@@ -35,14 +35,14 @@ export default () => (
       href="https://www.linkedin.com/in/emmawedekind/"
     >
       <img
-        style={{ margin: "0", width: "24px", height: "24px" }}
+        style={{ margin: "0", width: "18px", height: "18px" }}
         src={linkedin}
         alt="LinkedIn"
       />
     </a>
     <a className="socialMedia__link" href="https://github.com/emmabostian">
       <img
-        style={{ margin: "0", width: "24px", height: "24px" }}
+        style={{ margin: "0", width: "18px", height: "18px" }}
         src={github}
         alt="GitHub"
       />

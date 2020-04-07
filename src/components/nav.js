@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import SocialMedia from "./socialMedia"
 import menu from "../../content/assets/menu.svg"
 import close from "../../content/assets/close.svg"
 import "./nav.css"
@@ -24,6 +25,9 @@ const Nav = () => (
       </li>
       <li className="nav__listItem">
         <Link to="/courses">Courses</Link>
+      </li>
+      <li className="nav__listItem">
+        <SocialMedia />
       </li>
     </ul>
   </nav>

@@ -63,3 +63,24 @@
     width: 85vw;
   }
 }
+
+@media (max-width: 800px) {
+  .blogPost__content {
+    flex-direction: column;
+  }
+
+  .blogPost__textContent {
+    max-width: none;
+  }
+
+  .blogPost__title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .blogPost .blogPost__button {
+    border-left: none;
+    border-top: 2px solid #000;
+    padding: 12px;
+  }
+}

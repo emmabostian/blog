@@ -15,6 +15,11 @@ header {
   font-size: 72px;
 }
 
+.header__title a {
+  color: #000;
+  text-decoration: none;
+}
+
 main {
   display: flex;
   flex-direction: column;

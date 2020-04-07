@@ -1,17 +1,13 @@
-.aboutMe {
+.backlog {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid #d8d8d8;
-  padding-right: 120px;
-  height: 1000px;
+  height: 1400px;
 }
 
 @media (max-width: 1330px) {
-  .aboutMe {
-    border: none;
-    padding-right: 0;
+  .backlog {
     height: auto;
     margin-bottom: 100px;
   }

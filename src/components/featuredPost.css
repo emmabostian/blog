@@ -77,4 +77,19 @@
   .featuredPost {
     max-width: 85%;
   }
+
+  .featuredPost__title {
+    font-size: 24px;
+  }
+
+  .featuredPost__content {
+    flex-direction: column;
+  }
+
+  .featuredPost .featuredPost__button {
+    width: 100%;
+    border-top: 2px solid #000;
+    padding: 6px;
+    border-left: none;
+  }
 }

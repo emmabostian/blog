@@ -20,6 +20,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://emmabostian.us19.list-manage.com/subscribe/post?u=c1b6d709508ce9c50a34b2a23&amp;id=1345818a1b",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,

@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from "gatsby"
 import Nav, { MobileNav } from "./nav"
 import "./layout.css"
 
@@ -11,7 +12,9 @@ const Layout = ({ children }) => {
         <p className="header__tagline">
           Every coder has their journey. This is mine.
         </p>
-        <h1 className="header__title">Compiled</h1>
+        <h1 className="header__title">
+          <Link to="/">Compiled</Link>
+        </h1>
         <Nav />
         <MobileNav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       </header>
