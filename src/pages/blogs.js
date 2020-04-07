@@ -44,16 +44,18 @@ export default () => (
               id="blog-search"
               onChange={e => filterPosts(e)}
             />
-            {matchingPosts.map(({ node }) => (
-              <BlogPost
-                title={node.frontmatter.title}
-                description={node.frontmatter.description}
-                headerImage={node.frontmatter.headerImage}
-                slug={node.frontmatter.slug}
-                wide={true}
-                key={node.frontmatter.slug}
-              />
-            ))}
+            <div className="blogs__list-wrapper">
+              {matchingPosts.map(({ node }) => (
+                <BlogPost
+                  title={node.frontmatter.title}
+                  description={node.frontmatter.description}
+                  headerImage={node.frontmatter.headerImage}
+                  slug={node.frontmatter.slug}
+                  wide={true}
+                  key={node.frontmatter.slug}
+                />
+              ))}
+            </div>
           </div>
         </Layout>
       )

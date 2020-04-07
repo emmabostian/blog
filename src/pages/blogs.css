@@ -1,13 +1,14 @@
 .blogs__wrapper {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  align-items: center;
 }
 
 .blogs__search {
   border: 2px solid #000;
   padding: 16px;
   margin-bottom: 24px;
+  width: 600px;
 }
 
 .blogs__search-title {
@@ -20,8 +21,26 @@
 .blogs__search-wrapper {
   display: flex;
   justify-content: space-between;
+  width: 600px;
 }
 
 .blogs__search-wrapper p {
   margin: 0;
+}
+
+.blogs__list-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 650px) {
+  .blogs__wrapper {
+    max-width: 80vw;
+  }
+
+  .blogs__search,
+  .blogs__search-wrapper {
+    width: 80vw;
+  }
 }

@@ -5,7 +5,7 @@ import "./blogPost.css"
 
 const BlogPost = ({ title, description, headerImage, slug, wide = false }) => {
   return (
-    <div className="blogPost blogPost--wide">
+    <div className="blogPost">
       <img className="blogPost__headerImage" src={headerImage} alt={title} />
       <div className="blogPost__content">
         <div className="blogPost__textContent">
