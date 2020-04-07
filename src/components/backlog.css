@@ -6,6 +6,16 @@
   height: 1400px;
 }
 
+.backlog > .blogPost {
+  width: 75%;
+}
+
+@media (max-width: 630px) {
+  .backlog .blogPost {
+    width: 80vw;
+  }
+}
+
 @media (max-width: 1330px) {
   .backlog {
     height: auto;

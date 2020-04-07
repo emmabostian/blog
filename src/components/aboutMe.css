@@ -8,11 +8,40 @@
   height: 1000px;
 }
 
+.aboutMe > p {
+  font-size: 1.1rem;
+  max-width: 400px;
+}
+
+.aboutMe .learn-more {
+  background: none;
+  border: none;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 6px;
+  padding: 8px 12px;
+  width: 400px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 1330px) {
   .aboutMe {
     border: none;
     padding-right: 0;
     height: auto;
-    margin-bottom: 100px;
+    margin: 100px 0;
+  }
+
+  .aboutMe > p {
+    font-size: 1.4rem;
+    max-width: 70%;
+  }
+
+  .index__leftColumn {
+    width: 80vw;
   }
 }

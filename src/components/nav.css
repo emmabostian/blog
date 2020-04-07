@@ -100,7 +100,7 @@
   border: none;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1000px) {
   .nav {
     display: none;
   }

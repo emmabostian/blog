@@ -8,23 +8,25 @@ const AboutMe = () => (
   <aside className="aboutMe">
     <h2 className="page__subHeader">About Me</h2>
     <img className="page__image--small" src={picture} alt="Emma Bostian" />
-    <p style={{ textAlign: "left", maxWidth: "360px" }}>
+    <p>
       I am a Software Engineer based out of Karlsruhe, Germany. Born and raised
       in Upstate New York, I sold everything and moved to Europe two years ago.
     </p>
-    <p style={{ textAlign: "left", maxWidth: "360px" }}>
+    <p>
       In my spare time I have a podcast with two of my friends, I blog, and I
       create technical courses.
     </p>
-    <p style={{ textAlign: "left", maxWidth: "360px" }}>
+    <p>
       I am a Software Engineer based out of Karlsruhe, Germany. Born and raised
       in Upstate New York, I sold everything and moved to Europe two years ago.
     </p>
-    <p style={{ textAlign: "left", maxWidth: "360px" }}>
+    <p>
       I am a Software Engineer based out of Karlsruhe, Germany. Born and raised
       in Upstate New York, I sold everything and moved to Europe two years ago.
     </p>
-    <Link to="/about">Learn more</Link>
+    <Link className="learn-more" to="/about">
+      Learn more
+    </Link>
   </aside>
 )
 

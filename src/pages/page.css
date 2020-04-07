@@ -6,3 +6,9 @@
   width: 380px;
   border: 2px solid #000;
 }
+
+@media (max-width: 1330px) {
+  .page__image--small {
+    width: 50vw;
+  }
+}
