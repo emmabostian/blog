@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import FeaturedPost from "../components/featuredPost"
 import AboutMe from "../components/aboutMe"
 import Backlog from "../components/backlog"

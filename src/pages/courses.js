@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import arrow from "../../content/assets/arrow.png"
 import "./courses.css"
 
