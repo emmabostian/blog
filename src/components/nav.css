@@ -70,7 +70,7 @@
   height: 100vh;
   background-color: white;
   color: #000;
-  position: absolute;
+  position: fixed;
   top: -100%;
   left: 0;
   z-index: 80;

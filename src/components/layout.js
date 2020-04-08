@@ -6,6 +6,15 @@ import "./layout.css"
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false)
 
+  const handleSetMenuOpen = newValue => {
+    setMenuOpen(newValue)
+    if (newValue) {
+      document.querySelector("html").setAttribute("style", "overflow: hidden")
+    } else {
+      document.querySelector("html").setAttribute("style", "overflow: auto")
+    }
+  }
+
   return (
     <div>
       <header>
@@ -16,7 +25,7 @@ const Layout = ({ children }) => {
           <Link to="/">Compiled</Link>
         </h1>
         <Nav />
-        <MobileNav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <MobileNav menuOpen={menuOpen} setMenuOpen={handleSetMenuOpen} />
       </header>
       <main>{children}</main>
     </div>
