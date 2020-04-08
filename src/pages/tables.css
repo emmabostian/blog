@@ -31,13 +31,6 @@
   border: none;
 }
 
-.tables__table-body {
-  display: block;
-  max-height: 500px;
-  overflow-y: scroll;
-  width: 300%;
-}
-
 .tables__table-body td {
   width: 33%;
 }
@@ -50,4 +43,10 @@
 .tables__table a:hover,
 .tables__table a:focus {
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .tables__table {
+    width: 90vw;
+  }
 }

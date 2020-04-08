@@ -1,5 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import fedLove from "../../content/assets/fed-love.svg"
+import ato from "../../content/assets/ato.svg"
+import reactBoston from "../../content/assets/react-boston.svg"
+import reactLive from "../../content/assets/react-live.svg"
+import graphQLDay from "../../content/assets/graphql-day.svg"
+import reactGirls from "../../content/assets/react-girls.svg"
 import "./tables.css"
 
 const talks = [
@@ -50,6 +56,48 @@ const talks = [
 const TalksPage = () => (
   <Layout>
     <h1>Talks</h1>
+    <a
+      rel="noopener noreferrer"
+      href="https://www.frontenddeveloperlove.com/"
+      target="_blank"
+    >
+      <img
+        style={{ width: "200px" }}
+        src={fedLove}
+        alt="Frontend Developer Love Amsterdam"
+      />
+    </a>
+    <a
+      rel="noopener noreferrer"
+      href="https://2020.allthingsopen.org/"
+      target="_blank"
+    >
+      <img style={{ width: "200px" }} src={ato} alt="All Things Open" />
+    </a>
+    <a
+      rel="noopener noreferrer"
+      href="https://www.reactboston.com/"
+      target="_blank"
+    >
+      <img style={{ width: "200px" }} src={reactBoston} alt="React Boston" />
+    </a>
+    <a rel="noopener noreferrer" href="https://reactlive.nl/" target="_blank">
+      <img style={{ width: "200px" }} src={reactLive} alt="React Live" />
+    </a>
+    <a
+      rel="noopener noreferrer"
+      href="https://www.graphqlday.org/bodensee"
+      target="_blank"
+    >
+      <img style={{ width: "200px" }} src={graphQLDay} alt="GraphQL Day" />
+    </a>
+    <a
+      rel="noopener noreferrer"
+      href="https://reactjsgirls.com/"
+      target="_blank"
+    >
+      <img style={{ width: "200px" }} src={reactGirls} alt="React JS Girls" />
+    </a>
     <table className="tables__table">
       <thead>
         <tr>
@@ -68,7 +116,9 @@ const TalksPage = () => (
               <td>{conference.formattedDate}</td>
               <td>{conference.location}</td>
               <td>
-                <a href={conference.link}>Check it out</a>
+                <a rel="noopener noreferrer" href={conference.link}>
+                  Check it out
+                </a>
               </td>
             </tr>
           ))}

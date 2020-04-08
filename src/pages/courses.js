@@ -27,6 +27,7 @@ export default ({ data }) => (
           href="https://frontendmasters.com/workshops/design-systems-storybook/"
           target="_blank"
           className="course__link"
+          rel="noopener noreferrer"
         >
           <img
             className="course__buttonIcon"

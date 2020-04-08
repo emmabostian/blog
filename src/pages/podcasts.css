@@ -1,0 +1,18 @@
+.podcasts__paragraph {
+  font-size: 1.4rem;
+  max-width: 600px;
+}
+
+.podcasts__logo-wrapper {
+  display: flex;
+  margin-bottom: 90px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 860px) {
+  .podcasts__paragraph {
+    width: 80vw;
+  }
+}
