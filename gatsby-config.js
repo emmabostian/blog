@@ -9,6 +9,7 @@ module.exports = {
       name: `Emma Bostian`,
       summary: `A blog and portfolio by Emma Bostian`,
     },
+    publicUrl,
     description: `Coding tutorials and career advice`,
     siteUrl: `https://www.compiled.blog/`,
     social: {
