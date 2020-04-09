@@ -1,21 +1,25 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 import Nav, { MobileNav } from "./nav"
 import "./layout.css"
 
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false)
-  window.addEventListener("resize", e => {
-    if (window && window.innerWidth > 1000) {
-      document.querySelector("html").setAttribute("style", "overflow: auto")
-    } else {
-      if (menuOpen) {
-        document.querySelector("html").setAttribute("style", "overflow: hidden")
-      } else {
+  useEffect(() => {
+    window.addEventListener("resize", e => {
+      if (window && window.innerWidth > 1000) {
         document.querySelector("html").setAttribute("style", "overflow: auto")
+      } else {
+        if (menuOpen) {
+          document
+            .querySelector("html")
+            .setAttribute("style", "overflow: hidden")
+        } else {
+          document.querySelector("html").setAttribute("style", "overflow: auto")
+        }
       }
-    }
-  })
+    })
+  }, [])
 
   const handleSetMenuOpen = newValue => {
     setMenuOpen(newValue)
