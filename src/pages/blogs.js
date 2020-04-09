@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import { graphql, StaticQuery } from "gatsby"
 import BlogPost from "../components/blogPost.js"
@@ -28,6 +29,8 @@ export default () => (
       }
       return (
         <Layout>
+          <SEO title="Compiled Blog" />
+
           <h1>Blogs</h1>
           <div className="blogs__wrapper">
             <div className="blogs__search-wrapper">

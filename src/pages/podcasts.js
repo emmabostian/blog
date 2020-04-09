@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
@@ -54,6 +55,8 @@ export default () => (
     query={query}
     render={data => (
       <Layout>
+        <SEO title="Compiled Blog" />
+
         <h1>Regular Podcasts</h1>
         <p className="podcasts__paragraph">
           In spring of 2019 I co-founded the Ladybug Podcast with a few of my

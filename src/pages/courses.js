@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
 import Layout from "../components/layout"
@@ -7,6 +8,8 @@ import "./courses.css"
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Compiled Blog" />
+
     <h1>Courses</h1>
     <div className="course">
       <Img

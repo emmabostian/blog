@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 import { StaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
@@ -9,6 +10,7 @@ export default () => (
     query={query}
     render={data => (
       <Layout>
+        <SEO title="Compiled Blog" />
         <h1>About</h1>
         <div className="about__container">
           <Img

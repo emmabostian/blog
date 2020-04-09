@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import SEO from "../components/seo"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import fedLove from "../../content/assets/fed-love.svg"
@@ -14,6 +15,8 @@ export default () => (
     query={query}
     render={data => (
       <Layout>
+        <SEO title="Compiled Blog" />
+
         <h1>Talks</h1>
         <p className="talks__paragraph">
           I love speaking at conferences and meeting new people! If you'd like
