@@ -85,7 +85,7 @@ function SEO({ lang, meta }) {
         },
         {
           name: `twitter:image`,
-          content: publicUrl + metaImage,
+          content: metaImage,
         },
       ].concat(meta)}
     />
