@@ -30,6 +30,10 @@ function SEO({ lang, meta }) {
   )
   const { publicUrl, author, title } = site.siteMetadata
   const metaDescription = site.siteMetadata.description
+  const image =
+    metaImage && metaImage.src
+      ? `${site.siteMetadata.publicUrl}${metaImage.src}`
+      : null
 
   return (
     <Helmet
@@ -83,11 +87,35 @@ function SEO({ lang, meta }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-        {
-          name: `twitter:image`,
-          content: metaImage + "abc",
-        },
-      ].concat(meta)}
+      ]
+        .concat(
+          metaImage
+            ? [
+                {
+                  property: "og:image",
+                  content: image,
+                },
+                {
+                  property: "og:image:width",
+                  content: metaImage.width,
+                },
+                {
+                  property: "og:image:height",
+                  content: metaImage.height,
+                },
+                {
+                  name: "twitter:card",
+                  content: "summary_large_image",
+                },
+              ]
+            : [
+                {
+                  name: "twitter:card",
+                  content: "summary",
+                },
+              ]
+        )
+        .concat(meta)}
     />
   )
 }
@@ -103,6 +131,11 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.shape({
+    src: PropTypes.string.isRequired,
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  }),
 }
 
 export default SEO
