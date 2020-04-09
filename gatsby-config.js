@@ -9,8 +9,8 @@ module.exports = {
       name: `Emma Bostian`,
       summary: `A blog and portfolio by Emma Bostian`,
     },
-    description: `My portfolio!`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Coding tutorials and career advice`,
+    siteUrl: `https://www.compiled.blog/`,
     social: {
       twitter: `emmabostian`,
     },
