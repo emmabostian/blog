@@ -6,7 +6,7 @@ import "./layout.css"
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   window.addEventListener("resize", e => {
-    if (window.innerWidth > 1000) {
+    if (window && window.innerWidth > 1000) {
       document.querySelector("html").setAttribute("style", "overflow: auto")
     } else {
       if (menuOpen) {
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
   }
 
   const handleLinkClick = e => {
-    if (window.location.pathname !== `/${e.target.id}`) {
+    if (window && window.location.pathname !== `/${e.target.id}`) {
       document.querySelector("html").setAttribute("style", "overflow: auto")
     }
   }
