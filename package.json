@@ -1,11 +1,11 @@
 {
   "name": "emma-bostian-portfolio",
   "private": false,
-  "description": "My portfolio",
+  "description": "Coding tutorials and career advice",
   "version": "0.1.0",
   "author": "Emma Bostian <emma.j.bostian@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/emmabostian/blog"
   },
   "dependencies": {
     "gatsby": "^2.19.45",

@@ -1,3 +1,7 @@
+const URL = "https://www.compiled.blog"
+
+const publicUrl = process.env.NODE_ENV === "production" ? URL : ""
+
 module.exports = {
   siteMetadata: {
     title: `Compiled: A blog by Emma Bostian`,

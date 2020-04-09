@@ -10,7 +10,9 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-const SEO = ({ description, lang, meta, title }) => {
+import metaImage from "../images/meta/website-image.png"
+
+function SEO({ lang, meta }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -18,21 +20,22 @@ const SEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
-            social { twitter }
+            author
+            publicUrl
           }
         }
       }
     `
   )
-
-  const metaDescription = description || site.siteMetadata.description
+  const { publicUrl, author } = site.siteMetadata
+  const metaDescription = site.siteMetadata.description
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={metaTitle}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
@@ -40,8 +43,12 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
         {
+          property: `og:url`,
+          content: publicUrl,
+        },
+        {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
@@ -52,20 +59,32 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: publicUrl + metaImage,
+        },
+        {
+          property: `twitter:url`,
+          content: publicUrl,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
+          content: author,
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: publicUrl + metaImage,
         },
       ].concat(meta)}
     />
