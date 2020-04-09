@@ -78,3 +78,27 @@
     width: 258px !important;
   }
 }
+
+@media (max-width: 500px) {
+  .course {
+    flex-direction: column;
+    height: auto;
+    padding: 24px;
+  }
+
+  .course__icon {
+    align-self: center;
+  }
+
+  .course__content {
+    width: auto;
+  }
+
+  .course__title {
+    font-size: 26px;
+  }
+
+  .course__description {
+    font-size: 16px;
+  }
+}

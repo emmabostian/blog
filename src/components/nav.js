@@ -33,7 +33,7 @@ const Nav = () => (
   </nav>
 )
 
-export const MobileNav = ({ menuOpen, setMenuOpen }) => {
+export const MobileNav = ({ menuOpen, setMenuOpen, handleLinkClick }) => {
   return (
     <div className="mobileView">
       <button
@@ -59,22 +59,38 @@ export const MobileNav = ({ menuOpen, setMenuOpen }) => {
       <nav className={menuOpen ? "mobileNav mobileNav--show" : "mobileNav"}>
         <ul className="nav__list">
           <li className="nav__listItem">
-            <Link to="/">Home</Link>
+            <Link id="home" onClick={e => handleLinkClick(e)} to="/">
+              Home
+            </Link>
           </li>
           <li className="nav__listItem">
-            <Link to="/about">About</Link>
+            <Link id="about" onClick={e => handleLinkClick(e)} to="/about">
+              About
+            </Link>
           </li>
           <li className="nav__listItem">
-            <Link to="/blogs">Blogs</Link>
+            <Link id="blogs" onClick={e => handleLinkClick(e)} to="/blogs">
+              Blogs
+            </Link>
           </li>
           <li className="nav__listItem">
-            <Link to="/podcasts">Podcasts</Link>
+            <Link
+              id="podcasts"
+              onClick={e => handleLinkClick(e)}
+              to="/podcasts"
+            >
+              Podcasts
+            </Link>
           </li>
           <li className="nav__listItem">
-            <Link to="/talks">Talks</Link>
+            <Link id="talks" onClick={e => handleLinkClick(e)} to="/talks">
+              Talks
+            </Link>
           </li>
           <li className="nav__listItem">
-            <Link to="/courses">Courses</Link>
+            <Link id="courses" onClick={e => handleLinkClick(e)} to="/courses">
+              Courses
+            </Link>
           </li>
         </ul>
       </nav>

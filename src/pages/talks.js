@@ -22,16 +22,28 @@ export default () => (
         </p>
         <div className="talks__photo-wrapper">
           <Img
-            style={{ width: "600px" }}
-            fluid={data.frontendLove1.childImageSharp.fluid}
-          />
-          <Img
-            style={{ width: "600px" }}
+            style={{ width: "600px", height: "600px" }}
             fluid={data.frontendLove2.childImageSharp.fluid}
           />
           <Img
-            style={{ width: "600px" }}
+            style={{ width: "600px", height: "600px" }}
             fluid={data.frontendLove3.childImageSharp.fluid}
+          />
+          <Img
+            style={{ width: "600px", height: "600px" }}
+            fluid={data.reactLive1.childImageSharp.fluid}
+          />
+          <Img
+            style={{ width: "600px", height: "600px" }}
+            fluid={data.reactLive2.childImageSharp.fluid}
+          />
+          <Img
+            style={{ width: "600px", height: "600px" }}
+            fluid={data.reactLive3.childImageSharp.fluid}
+          />
+          <Img
+            style={{ width: "600px", height: "600px" }}
+            fluid={data.reactBoston.childImageSharp.fluid}
           />
         </div>
         <div className="talks__year">
@@ -119,13 +131,6 @@ const query = graphql`
         }
       }
     }
-    frontendLove1: file(relativePath: { eq: "fed-love-1.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 700) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     frontendLove2: file(relativePath: { eq: "fed-love-2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 700) {
@@ -134,6 +139,34 @@ const query = graphql`
       }
     }
     frontendLove3: file(relativePath: { eq: "fed-love-3.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 700) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    reactLive1: file(relativePath: { eq: "react-live-1.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 700) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    reactLive2: file(relativePath: { eq: "react-live-2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 700) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    reactLive3: file(relativePath: { eq: "react-live-3.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 700) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    reactBoston: file(relativePath: { eq: "react-boston.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 700) {
           ...GatsbyImageSharpFluid
