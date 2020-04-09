@@ -32,7 +32,7 @@ export default () => (
 
 const query = graphql`
   query LastTwoBlogPostsQuery {
-    allMarkdownRemark(sort: { fields: frontmatter___date }) {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
       edges {
         node {
           frontmatter {
