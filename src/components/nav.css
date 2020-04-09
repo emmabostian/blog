@@ -84,7 +84,7 @@
   flex-direction: column;
   height: 100%;
   justify-content: space-around;
-  margin-bottom: 40px;
+  padding: 100px 0;
 }
 
 .mobileNav .nav__listItem {
