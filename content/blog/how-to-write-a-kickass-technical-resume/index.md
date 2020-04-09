@@ -4,7 +4,7 @@ date: "2019-01-08"
 slug: "/how-to-write-a-kickass-technical-resume"
 description: Writing a resume is hard. Yet even today, most job applications require resumes to be considered for a position. The true goal behind a resume is to market yourself. You are your best advocate.
 headerImage: "https://cdn-images-1.medium.com/max/1000/1*kP1T8RSVBamsFmEMBWBcdA.jpeg"
-draft: true
+draft: false
 ---
 
 <img src="https://cdn-images-1.medium.com/max/1000/1*kP1T8RSVBamsFmEMBWBcdA.jpeg" />
@@ -13,7 +13,7 @@ Writing a resume is hard. Yet even today, most job applications require resumes 
 
 You must create a resume that can advocate for you even when compared with many other qualified candidates.
 
-![Basic Information](https://cdn-images-1.medium.com/max/1000/1*WGX9cOTOgESvjuKA-Bkxnw.png)
+# Basic Information
 
 ## Education
 
@@ -105,25 +105,25 @@ By incorporating small colloquialisms and designs into our resume, you show the 
 
 It’s important to put love and effort into your resume as this can indicate to the employer your attention to detail.
 
-![Tips for a successful resume](https://cdn-images-1.medium.com/max/1000/1*wsHFrWnU3EYPz6rjYILEkw.png)
+# Tips For Building A Resume
 
-### Keep It Succinct
+## Keep It Succinct
 
 Unless you have ten or more years in the relevant industry, your resume should be **no longer than one page**. Often, recruiters will glance at the first page of your resume and throw it aside if they don’t immediately see something worth a deeper look.
 
 You have once chance to make a good and unique first impression.
 
-### Be Selective About Technology Skills
+## Be Selective About Technology Skills
 
 Do not list every single skill or technology you’ve ever acquired. If you don’t currently possess it, don’t list it. It could lead to some awkward conversations in an interview.
 
-### Don’t Include Every Detail About Your Life
+## Don’t Include Every Detail About Your Life
 
 You have at most two pages to convince an employer they should at the very least interview you. Thus, it’s important to be selective about what bits of information you share.
 
 Additionally, you want to leave room for some intrigue. If you list everything about yourself on your resume, there’s nothing left for the employer to ask you about.
 
-### Format Is Key
+## Format Is Key
 
 There is nothing worse than a resume with spelling and grammatical errors.
 
@@ -135,7 +135,7 @@ Your font should be no smaller than ten pixels.
 
 Ensure you are consistent with spacing. This can have a major impact on the clarity and visual attractiveness of your resume.
 
-![Creating a resume](https://cdn-images-1.medium.com/max/1000/1*uo14ELOKGh8Smekl_LCrFQ.png)
+# Tools For Creating A Resume
 
 There are many programs you can use to create your resume. Most applications require a .doc, .docx, or .pdf format, so ensure the program you select can export to these file types.
 
@@ -171,17 +171,9 @@ It’s not a necessity to include a photo. I tend to select a photo which matche
 
 By creating a beautiful resume, you’re likely to stand out from the crowd.
 
-![Pretty resume](https://cdn-images-1.medium.com/max/800/1*agpfVchU-lvZ6I_0JzUD8w.png)
+![Pretty resume](https://miro.medium.com/max/1400/1*JHQwxbZADvViSvugEZ2_Eg.png)
 
-_Both of the resumes can be downloaded below. Feel free to customize them to your liking!_
-
-[Simple Resume](https://drive.google.com/file/d/1Vy4rkd7idJ6TlCToKz-Ln_7PQCOCsVej/view?usp=sharing)
-
-[Fancy Resume (PDF)](https://drive.google.com/file/d/1PVmZdHugJkGyI7KQ7Cd332pE8mjA7yvF/view?usp=sharing)
-
-[Fancy Resume (Sketch)](https://drive.google.com/file/d/1jlEmQsafx_XOhSUEPBePsJeTz-PbJ9sV/view?usp=sharing)
-
-![Conclusion](https://cdn-images-1.medium.com/max/1000/1*A7o8MWs2lu1zyIsB12HhAw.png)
+# Conclusion
 
 By leveraging these tips, you’re bound to create a stand-out technical resume. It’s important to always keep your resume relevant as your skills, work experience, and education changes.
 
@@ -189,7 +181,7 @@ I highly recommend using a service like [CV Compiler](https://cvcompiler.com/) t
 
 Good luck and feel free to reach out on Twitter if you have any questions!
 
-![Resources](https://cdn-images-1.medium.com/max/1000/1*6jdMvmB4hAc48yQi2CzHbA.png)
+# Resources
 
 - [CV Compiler](https://cvcompiler.com/)
 

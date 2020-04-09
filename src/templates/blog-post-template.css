@@ -71,6 +71,12 @@
   text-decoration: none;
 }
 
+.blogTemplate__content img {
+  margin: 24px auto;
+  display: block;
+  align-self: center;
+}
+
 @media (max-width: 850px) {
   .blogTemplate__content {
     width: 90vw;

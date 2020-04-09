@@ -4,7 +4,7 @@ date: "2018-12-18"
 slug: "/five-mistakes-you-are-making-in-your-technical-interviews"
 description: Technical interviews are the most nerve-wracking experiences in any engineer's career. Often, you're so worried about impressing the interviewers that you forget to relax and be yourself.
 headerImage: "https://images.unsplash.com/photo-1536139825125-2026747cd156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-draft: true
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1536139825125-2026747cd156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="blogTemplate__headerImage" />
@@ -49,31 +49,6 @@ Here are some questions you may want to ask:
 Many candidates make the assumption that they have to provide the most optimized, performant solution to an algorithmic coding question. And while this is true, to a certain extent, it doesn't have to be your first solution.
 
 It is totally fine to start with a brute-force solution, and work your way to an optimized one.
-
-Let's take an example.
-
-Let's say you were asked to return the number of pairs of letters in an array.
-
-Since you have no idea where to begin, let's go ahead and create a brute-force solution.
-
-![Coding example 1](https://thepracticaldev.s3.amazonaws.com/i/90c1gt2sxpj6xv3gdv8j.png)
-
-What is this example doing?
-
-- We've created an object, called alphabetDictionary which holds each letter of the alphabet, and a number, initialized to 0, which indicates how many times we've encountered this letter in the array.
-- Next, we iterate through the length of the array and for each letter, increment the value in the alphabetDictionary.
-- Third step is to iterate through the alphabetDictionary and see how many times each letter was found. If the letter was found an even amount of times, divide it by two (to get the correct number of pairs) and add that to the numPairs variable. If the letter was found more than twice, but isn't an even number, subtract one off of the total count (to make it even), then divide by two (to get the number of pairs) and add it to the numPairs variable.
-- Then, just return numPairs.
-
-This is extremely verbose, but it works! Let's see if we can get a more elegant solution.
-
-Since we don't care which letters were found in pairs, we can initialize alphabetDictionary to an empty object. Thus, we only add a value if the letter was found.
-
-![Code example 2](https://thepracticaldev.s3.amazonaws.com/i/fcdbysmq4kp8c46h9ghi.png)
-
-It's important to note that both of these algorithms have exactly the same runtime O(n), however we were able to make the second snippet a bit more elegant.
-
-You can use the technique of enhancing your brute-force method to come up with the most optimized coding solution.
 
 # 3. You work through problems in your head
 

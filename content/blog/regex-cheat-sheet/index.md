@@ -4,7 +4,7 @@ date: "2019-02-19"
 slug: "/regex-cheat-sheet"
 description: A regular expression, or 'regex', is used to match parts of a string. Below is my cheat sheet for creating regular expressions.
 headerImage: "https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
-draft: true
+draft: false
 ---
 
 <img src="https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" />

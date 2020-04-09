@@ -209,5 +209,3 @@ function largestOfFour(arr) {
 ```
 
 ---
-
-I plan to turn this into a series of posts, so if you enjoyed it make sure to follow me for updates!
