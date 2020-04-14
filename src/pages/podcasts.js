@@ -72,6 +72,7 @@ export default () => (
             rel="noopener noreferrer"
             href="https://changelog.com/jsparty"
             target="_blank"
+            aria-label="Listen to JS Party podcast"
           >
             <Img
               style={{ width: "200px" }}
@@ -87,6 +88,7 @@ export default () => (
               style={{ width: "400px" }}
               src={ladybug}
               alt="Ladybug Podcast"
+              aria-label="Listen to Ladybug podcast"
             />
           </a>
         </div>
@@ -107,7 +109,7 @@ export default () => (
                   <td>{episode.name}</td>
                   <td>{episode.formattedDate}</td>
                   <td>
-                    <a href={episode.link}>Listen</a>
+                    <a href={episode.link} aria-label={'Listen to podast episode '+episode.name}>Listen</a>
                   </td>
                 </tr>
               ))}
