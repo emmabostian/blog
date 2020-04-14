@@ -31,6 +31,7 @@ export default ({ data }) => (
           target="_blank"
           className="course__link"
           rel="noopener noreferrer"
+          aria-label="See more about my Foundation of Design Systems course"
         >
           <img
             className="course__buttonIcon"
