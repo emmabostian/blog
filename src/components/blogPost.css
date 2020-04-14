@@ -1,6 +1,7 @@
 .blogPost {
   border: 2px solid #000;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -12,6 +13,11 @@
   height: 340px;
   border-bottom: 2px solid #000;
   margin: 0;
+}
+@media (max-width: 800px) {
+  .blogPost__headerImage {
+    height: 200px;
+  }
 }
 
 .blogPost a {
@@ -44,7 +50,7 @@
   display: flex;
   align-items: center;
   padding: 0 24px;
-  height: 150px;
+  min-height: 150px;
 }
 
 .blogPost__buttonIcon {
