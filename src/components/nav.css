@@ -46,12 +46,13 @@
   top: 24px;
   right: 12px;
   width: 40px;
-  height: 40px;
+  height: 28px;
   z-index: 90;
   background: none;
   border: none;
   cursor: pointer;
   background-color: #fff;
+  padding: 0;
 }
 
 .mobileNav__button > img {
