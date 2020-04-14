@@ -63,6 +63,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: 'gatsby-plugin-social-cards',
+      options: {
+        // image to use when no cover in frontmatter
+        backgroundImage: './src/images/website-image.png',
+        // card design
+        design: 'default' // 'default' or 'card'
+      }
+    }
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,

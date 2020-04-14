@@ -28,12 +28,6 @@ function SEO({ lang, meta }) {
       }
     `
   )
-  const { publicUrl, author, title } = site.siteMetadata
-  const metaDescription = site.siteMetadata.description
-  const image =
-    metaImage && metaImage.src
-      ? `${site.siteMetadata.publicUrl}${metaImage.src}`
-      : null
 
   return (
     <Helmet
@@ -42,81 +36,12 @@ function SEO({ lang, meta }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:url`,
-          content: publicUrl,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          property: `og:image`,
-          content: publicUrl + metaImage,
-        },
-        {
-          property: `twitter:url`,
-          content: publicUrl,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ]
-        .concat(
-          metaImage
-            ? [
-                {
-                  property: "og:image",
-                  content: image,
-                },
-                {
-                  property: "og:image:width",
-                  content: metaImage.width,
-                },
-                {
-                  property: "og:image:height",
-                  content: metaImage.height,
-                },
-                {
-                  name: "twitter:card",
-                  content: "summary_large_image",
-                },
-              ]
-            : [
-                {
-                  name: "twitter:card",
-                  content: "summary",
-                },
-              ]
-        )
-        .concat(meta)}
-    />
+    >
+      <meta name="image" content={metaImage} />
+		<meta property="og:image" content={metaImage} />
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image" content={metaImage} />
+    </Helmet>
   )
 }
 
