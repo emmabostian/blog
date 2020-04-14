@@ -20,10 +20,6 @@ const AboutMe = () => (
       I am a Software Engineer based out of Karlsruhe, Germany. Born and raised
       in Upstate New York, I sold everything and moved to Europe two years ago.
     </p>
-    <p>
-      I am a Software Engineer based out of Karlsruhe, Germany. Born and raised
-      in Upstate New York, I sold everything and moved to Europe two years ago.
-    </p>
     <Link className="learn-more" to="/about">
       Learn more
     </Link>
