@@ -11,7 +11,7 @@ const BlogPost = ({ title, description, headerImage, slug, wide = false }) => {
         <div className="blogPost__textContent">
           <p className="blogPost__title">{title}</p>
         </div>
-        <Link to={slug} className="blogPost__button">
+        <Link to={slug} className="blogPost__button" aria-label={'Read more about the post '+title}>
           <img
             className="blogPost__buttonIcon"
             src={arrow}

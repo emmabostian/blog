@@ -46,6 +46,7 @@ export default () => (
               type="text"
               id="blog-search"
               onChange={e => filterPosts(e)}
+              aria-label="Filter blog posts"
             />
             <div className="blogs__list-wrapper">
               {matchingPosts.map(({ node }) => (

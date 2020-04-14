@@ -20,7 +20,7 @@ const AboutMe = () => (
       I am a Software Engineer based out of Karlsruhe, Germany. Born and raised
       in Upstate New York, I sold everything and moved to Europe two years ago.
     </p>
-    <Link className="learn-more" to="/about">
+    <Link className="learn-more" to="/about" aria-label="Learn more about Emma Bostian">
       Learn more
     </Link>
   </aside>

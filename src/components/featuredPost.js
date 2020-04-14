@@ -21,7 +21,7 @@ export default () => (
               <p className="featuredPost__title">{post.title}</p>
               <p className="featuredPost__description">{post.description}</p>
             </div>
-            <Link to={post.slug} className="featuredPost__button">
+            <Link to={post.slug} className="featuredPost__button" aria-label={'Read more about the post '+post.title}>
               <img
                 className="featuredPost__buttonIcon"
                 src={arrow}
