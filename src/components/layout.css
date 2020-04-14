@@ -15,6 +15,12 @@ header {
   font-size: 72px;
 }
 
+@media (max-width: 500px) {
+  .header__title {
+    font-size: 16vw;
+  }
+}
+
 .header__title a {
   color: #000;
   text-decoration: none;
