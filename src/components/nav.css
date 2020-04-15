@@ -23,6 +23,12 @@
   border-left: 1px solid #979797;
   display: flex;
   align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav__listItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .nav__list li:last-child {
