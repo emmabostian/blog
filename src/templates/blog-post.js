@@ -17,7 +17,7 @@ const BlogPostTemplate = ({ data }) => {
       </Link>
       <h1 className="blogTemplate__title">{post.frontmatter.title}</h1>
       <p className="blogTemplate__date">{post.frontmatter.date}</p>
-      <p
+      <div
         className="blogTemplate__content"
         dangerouslySetInnerHTML={{
           __html: post.html,

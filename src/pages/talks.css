@@ -1,3 +1,8 @@
+.gatsby-image-wrapper {
+  width: 600px;
+  height: 600px;
+}
+
 .talks__paragraph {
   font-size: 1.4rem;
   max-width: 600px;
@@ -34,5 +39,12 @@
 @media (max-width: 860px) {
   .talks__paragraph {
     width: 80vw;
+  }
+}
+
+@media (max-width: 630px) {
+  .gatsby-image-wrapper {
+    width: 100%;
+    height: auto;
   }
 }

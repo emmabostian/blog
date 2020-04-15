@@ -34,7 +34,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
   .blogs__wrapper {
     max-width: 80vw;
   }
@@ -42,5 +42,9 @@
   .blogs__search,
   .blogs__search-wrapper {
     width: 80vw;
+  }
+
+  .blogPost {
+    width: 85vw;
   }
 }
