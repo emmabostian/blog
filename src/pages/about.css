@@ -11,3 +11,15 @@
   line-height: 44px;
   margin: 32px 48px;
 }
+
+@media (max-width: 630px) {
+  .about__container {
+    padding-top: 1rem;
+    max-width: 80vw;
+  }
+
+  .about__container p {
+    margin: 2rem 1rem;
+    max-width: 100%;
+  }
+}

@@ -83,11 +83,15 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
   .blogTemplate__link {
     position: relative;
     top: 0;
     left: 0;
     margin-bottom: 24px;
+  }
+
+  .blogTemplate__content p {
+    width: 90%;
   }
 }

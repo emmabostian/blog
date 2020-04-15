@@ -24,30 +24,12 @@ export default () => (
           emma.j.bostian@gmail.com!
         </p>
         <div className="talks__photo-wrapper">
-          <Img
-            style={{ width: "600px", height: "600px" }}
-            fluid={data.frontendLove2.childImageSharp.fluid}
-          />
-          <Img
-            style={{ width: "600px", height: "600px" }}
-            fluid={data.frontendLove3.childImageSharp.fluid}
-          />
-          <Img
-            style={{ width: "600px", height: "600px" }}
-            fluid={data.reactLive1.childImageSharp.fluid}
-          />
-          <Img
-            style={{ width: "600px", height: "600px" }}
-            fluid={data.reactLive2.childImageSharp.fluid}
-          />
-          <Img
-            style={{ width: "600px", height: "600px" }}
-            fluid={data.reactLive3.childImageSharp.fluid}
-          />
-          <Img
-            style={{ width: "600px", height: "600px" }}
-            fluid={data.reactBoston.childImageSharp.fluid}
-          />
+          <Img fluid={data.frontendLove2.childImageSharp.fluid} />
+          <Img fluid={data.frontendLove3.childImageSharp.fluid} />
+          <Img fluid={data.reactLive1.childImageSharp.fluid} />
+          <Img fluid={data.reactLive2.childImageSharp.fluid} />
+          <Img fluid={data.reactLive3.childImageSharp.fluid} />
+          <Img fluid={data.reactBoston.childImageSharp.fluid} />
         </div>
         <div className="talks__year">
           <h1 className="talks__date">2020</h1>
