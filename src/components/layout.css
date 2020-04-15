@@ -28,6 +28,12 @@ main {
   overflow-x: hidden;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
 @media (max-width: 860px) {
   .header__tagline {
     max-width: 60%;
