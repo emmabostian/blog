@@ -25,6 +25,7 @@
   height: 340px;
   border-bottom: 2px solid #000;
   margin: 0;
+  object-fit: cover;
 }
 
 .featuredPost a {
