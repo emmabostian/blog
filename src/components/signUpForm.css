@@ -34,7 +34,8 @@
 
 .signUpForm__group > input {
   height: 48px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .signUpForm > button {
@@ -46,7 +47,8 @@
   cursor: pointer;
   letter-spacing: 6px;
   padding: 8px 12px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .signUpForm > button[aria-disabled="true"] {
@@ -57,6 +59,8 @@
 .signUpForm {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 400px;
 }
 
 .signUpForm__group > label {

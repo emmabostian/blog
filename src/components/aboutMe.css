@@ -22,7 +22,8 @@
   cursor: pointer;
   letter-spacing: 6px;
   padding: 8px 12px;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   text-decoration: none;
   display: flex;
   justify-content: center;
